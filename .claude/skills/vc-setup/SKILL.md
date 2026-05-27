@@ -25,7 +25,7 @@ Read `references/vc-setup.md` for detailed phase instructions, detection heurist
 
 ### Phase 0: BOOTSTRAP (handled by install.sh)
 
-The `install.sh` script handles fetching and installing harness files before vc-setup runs. It performs a full safe merge: copies missing files, preserves existing configs, backs up CLAUDE.md/AGENTS.md.
+The `install.sh` script handles fetching and installing harness files before vc-setup runs. For existing projects, it backs up old `.claude/`, `.codex/`, `.agents/` to `.vibecode-backup/`, then does a clean install of all kit files. User's `.claude/settings.json` is restored after install. The `process/` directory is never touched by install.sh — layout migration happens in vc-setup's SCAFFOLD phase.
 
 **If harness files are already present** (`.claude/agents/` and `.claude/skills/` exist with 12+ agents and 20+ skills), skip Phase 0 and proceed directly to Phase 1 DETECT.
 
@@ -51,8 +51,24 @@ Create the `process/` directory with seed files and instructional content.
 
 1. Determine the scaffold mode:
    - **Fresh**: no existing `process/` directory -- create everything from `process/_seeds/`.
-   - **Merge**: existing `process/` with a different layout -- preserve content, add missing directories, seed empty folders.
+   - **Merge**: existing `process/` with a different layout -- preserve content, migrate old layout, add missing directories, seed empty folders.
    - **Refresh**: existing harness `process/` -- update protocol docs, seed missing files, preserve user-created content.
+
+**Merge mode includes automatic layout migration.** Before creating new directories, detect and migrate old layouts:
+
+| Old Layout | Migration Action |
+|------------|-----------------|
+| `process/plans/` exists, `process/general-plans/` does not | Move `process/plans/*` → `process/general-plans/active/`, then remove empty `process/plans/` |
+| `process/reports/` exists at top level | Move `process/reports/*` → `process/general-plans/reports/`, then remove empty `process/reports/` |
+| `process/skills/` exists at top level | Move `process/skills/*` → `process/general-plans/references/`, then remove empty `process/skills/` |
+| `process/context/example-*.md` (PRDs outside planning/) | Move to `process/context/planning/` |
+| `process/context/backlog.md` at top of context/ | Move to `process/general-plans/backlog/` |
+
+**Migration rules:**
+- Never overwrite existing files at the destination. If a file with the same name exists, keep both (rename the migrated copy with a `-migrated` suffix).
+- Print every move action to the user so they can verify.
+- After all moves, remove empty source directories.
+- If `process/plans/` contains files matching date-based patterns (e.g., `2026-05-22-*.md`, `*_PLAN_*.md`), classify completed plans (look for "COMPLETE" or "DONE" in the file) and move them to `completed/` instead of `active/`.
 2. Seeds live in `process/_seeds/` (read-only during setup -- never modified by the scaffold process):
    - Files with `.seed` extension: copy with `.seed` removed, replace `{{project_name}}` with the detected project name.
    - Files without `.seed` extension: copy verbatim.

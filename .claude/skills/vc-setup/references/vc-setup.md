@@ -206,7 +206,27 @@ Create everything from `process/_seeds/` (read-only source, never modified durin
 
 ### Merge Mode
 
-Preserve existing content, fill gaps (read from `process/_seeds/`, never modify seeds):
+Preserve existing content, migrate old layouts, fill gaps (read from `process/_seeds/`, never modify seeds):
+
+**Step 0 — Layout Migration (before creating anything new):**
+
+Detect old directory layouts and reorganize them into the harness standard structure. Print every move to the user.
+
+| Old Layout | Migration Action |
+|------------|-----------------|
+| `process/plans/` exists, no `process/general-plans/` | Create `process/general-plans/active/` and `process/general-plans/completed/`. For each file in `process/plans/`: scan for "COMPLETE", "DONE", or "✅" markers — move matches to `completed/`, move the rest to `active/`. Remove empty `process/plans/`. |
+| `process/reports/` exists at top level | Move `process/reports/*` → `process/general-plans/reports/`. Remove empty `process/reports/`. |
+| `process/skills/` exists at top level | Move `process/skills/*` → `process/general-plans/references/`. Remove empty `process/skills/`. |
+| `process/context/example-*.md` outside `planning/` | Move to `process/context/planning/`. |
+| `process/context/backlog.md` | Move to `process/general-plans/backlog/backlog.md`. |
+
+**Migration rules:**
+- Never overwrite existing files at the destination. If a same-name file exists, keep both (rename the migrated copy with a `-migrated` suffix).
+- Print every move action so the user can verify.
+- After all moves, remove empty source directories.
+- If a plan file contains phase patterns (`phase-00-`, `phase-01-`, etc.) and a master plan file exists alongside them, keep them grouped in the same destination directory.
+
+**Step 1–6 — Standard merge (after migration):**
 
 1. Create only missing directories
 2. Add `_GUIDE.md` to empty directories that lack them (source: `process/_seeds/`)
