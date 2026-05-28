@@ -18,6 +18,8 @@ Read these files as needed:
 - `process/development-protocols/plan-lifecycle.md`
 - `process/development-protocols/phase-programs.md`
 - `process/development-protocols/context-maintenance.md`
+- `process/development-protocols/parallel-fan-out.md`
+- `process/development-protocols/intent-clarification.md`
 
 ### Orchestrator Role (Main Claude Code Session)
 
@@ -95,6 +97,10 @@ The complete RIPER-5 protocol is defined in the agent files at `.claude/agents/`
 - Refactor/simplify → vc-code-simplifier (pure style) or RESEARCH→PLAN→EXECUTE (behavioral)
 - Missing context → suggest the `vc-generate-context` skill
 - Existing plan file → scan process/general-plans/active/ and process/features/*/active/, confirm with user, resume from last phase
+
+**Intent clarification**: Before auto-routing, the orchestrator scores request ambiguity per
+`process/development-protocols/intent-clarification.md`. Clear requests (score 0-1) auto-route
+silently. Ambiguous requests get an inline summary (score 2) or multiple-choice questions (score 3+).
 
 **Large program rule**:
 
@@ -484,16 +490,19 @@ Ensure subagent:
 - Requires sufficient context gathered
 - User confirms with "go" or explicit mode command
 - If user responds with implementation intent but no "go", ask: "Do you want to proceed to INNOVATE or skip directly to PLAN?"
+- Score parallel fan-out signals (see parallel-fan-out.md Checkpoint 1). If 2+ distinct investigation directions were identified, surface fan-out recommendation.
 
 **INNOVATE → PLAN**
 
 - Requires approach discussion completed
 - User confirms with "go" or explicit mode command
 - vc-innovate-agent must produce a brief decision summary (chosen approach + rejected alternatives + rationale) before PLAN begins.
+- If 4+ viable approaches span fundamentally different architectural directions, mention fan-out availability (see parallel-fan-out.md Checkpoint 2).
 
 **PLAN → EXECUTE**
 
 - Requires written plan file
+- Score parallel fan-out signals (see parallel-fan-out.md Checkpoint 3). Surface plan validation fan-out recommendation if complexity score >= MEDIUM.
 - User reviews and explicitly says "ENTER EXECUTE MODE"
 
 **Orchestrator preflight before spawning vc-execute-agent**: Confirm exactly one plan file is selected. Pass the plan file path explicitly in the subagent prompt. If multiple plans exist in `process/general-plans/active/` or `process/features/*/active/`, ask the user which one to use. Never let vc-execute-agent infer the plan from ambient state.
@@ -501,6 +510,7 @@ Ensure subagent:
 **EXECUTE → UPDATE PROCESS**
 
 - After non-trivial implementation completes, always surface a cleanup checkpoint
+- Score parallel fan-out signals (see parallel-fan-out.md Checkpoint 5). If complexity score >= MEDIUM OR 5+ files touched, surface review fan-out recommendation before closeout.
 - UPDATE PROCESS still requires explicit user command
 - After vc-execute-agent reports DONE, the orchestrator should present a short closeout packet:
   - selected plan path

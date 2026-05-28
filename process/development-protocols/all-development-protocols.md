@@ -11,7 +11,8 @@ Use this folder for durable, repo-specific operating instructions that must stay
 3. `plan-lifecycle.md`
 4. `phase-programs.md`
 5. `parallel-fan-out.md`
-6. `context-maintenance.md`
+6. `intent-clarification.md`
+7. `context-maintenance.md`
 
 ## File Roles
 
@@ -25,6 +26,8 @@ Use this folder for durable, repo-specific operating instructions that must stay
   How to run large multi-phase programs: umbrella plan, per-phase plan split, required research -> execute -> validate -> durable-report loop, blocker handling, and foundation-vs-expansion boundaries.
 - `parallel-fan-out.md`
   When and how to recommend parallel subagent fan-out during RIPER-5 workflow: complexity scoring, two-tier escalation, 5 checkpoint definitions, synthesis protocol.
+- `intent-clarification.md`
+  Tiered intent-clarification protocol: signal scoring, three routing tiers, question category menu, autonomy mode, light research pass, and FAST-mode integration.
 - `context-maintenance.md`
   How `process/context/` is organized, when to create or split groups, how to keep `all-context.md` accurate, and how long-lived knowledge differs from feature plans.
 

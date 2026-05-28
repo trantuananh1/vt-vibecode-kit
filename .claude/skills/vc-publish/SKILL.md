@@ -180,6 +180,7 @@ Tag:           v2.2.0
 
 ## Rules
 
+- **ALWAYS** run the full resolver diff (Steps 3-4) even when changes already exist in the kit repo. Direct kit edits (README, translations, community files) do not replace the dev→kit diff. Both change sources must be captured in the same publish.
 - **NEVER** copy project-specific files: `process/context/all-context.md` (with real content), `process/features/*`, `process/general-plans/*` (with real plans)
 - **ALWAYS** verify no project-specific content leaked before committing (Step 8)
 - **ALWAYS** show the diff summary before publishing (Step 5-6)

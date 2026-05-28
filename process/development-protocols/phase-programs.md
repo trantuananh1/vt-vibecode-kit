@@ -64,10 +64,13 @@ Scope:
 
 Execution rule:
 - Do not execute the whole program at once
-- For each phase, follow the required loop:
-  research subagent -> execution approval -> execute subagent -> validate subagent -> durable report/context update
+- For each phase, follow the required 10-step loop:
+  research -> approval -> execute -> validate -> regression check -> durable capture -> commit -> inter-phase UPDATE PROCESS -> move-on
 - Re-research at the start of every phase before implementation
-- Do not mark a phase `✅ VERIFIED` without the agreed evidence
+- After validation, run regression checks against previously verified surfaces that overlap with this phase's blast radius
+- Commit execution changes via vc-git-manager before moving to the next phase
+- Run inter-phase UPDATE PROCESS to archive the completed phase and capture learnings
+- Do not mark a phase `✅ VERIFIED` without both phase evidence and regression evidence
 - If blocked, document the blocker, safest next action, and update later phase plans/reports so the work survives compaction
 
 Deliverables:
@@ -87,6 +90,19 @@ Working instruction:
 
 Use this as a starting point, then replace the placeholders with the real project, acceptance
 boundary, and safety constraints.
+
+### Practical Operator Kickoff
+
+Shorter version for day-to-day reuse when the full template is overkill:
+
+```text
+Build [NAME] as a phase program per process/development-protocols/phase-programs.md.
+
+Goal: [1-2 sentences]
+
+First: recommend structure (feature folder, phases, immediate next action). Stop for approval.
+Then: advance one phase at a time using the 10-step loop (research -> approval -> execute -> validate -> regression -> capture -> commit -> UPDATE PROCESS -> move-on).
+```
 
 ## Kickoff Recommendation Format
 
@@ -203,25 +219,39 @@ For every phase, run this loop:
    - inspect artifacts, logs, DB state, screenshots, traces, or runtime evidence as required
    - decide whether the phase is genuinely green, blocked, or only partially proven
 
-5. **Durable capture**
+5. **Regression checkpoint**
+   - run the narrowest representative check against previously verified surfaces that overlap with this phase's blast radius
+   - see "Regression Checkpoint Standard" below for scope selection and evidence format
+   - if all regression checks pass, proceed to durable capture
+   - if any regression is found, follow "Regression-Found Workflow" before advancing
+
+6. **Regression-found workflow** (conditional)
+   - only enters this step when step 5 finds a regression
+   - classify, fix or route, revalidate, then return to step 5
+   - see "Regression-Found Workflow" below for the full decision tree
+
+7. **Durable capture**
    - update the phase report with commands, outcomes, deviations, and blockers
+   - include regression check results (pass or fix-and-revalidate) in the report
    - update context docs if durable operational knowledge changed
    - update later phase plans if the new learning changes future work
    - if execution reveals a concrete missing downstream lane, create the new follow-up phase plan or backlog artifact instead of leaving the follow-up only in chat
    - keep the parent or umbrella plan in sync when follow-up routing or phase sequencing changes
 
-6. **Status decision**
-   - mark the phase `✅ VERIFIED` only when the agreed evidence standard is satisfied
-   - otherwise keep it `🚧 BLOCKED` or the appropriate status with a specific next action
+8. **Commit checkpoint**
+   - if the phase produced implementation changes, recommend `vc-git-manager` for a logical execution commit before continuing
+   - keep process/plan/context artifact commits separate from execution commits
+   - do not defer the commit to a later phase -- stale worktrees make regression checking unreliable
 
-7. **Move-on recommendation**
-   - name the exact next valid state after the phase closeout
-   - when a phase is well-tested and genuinely validated, recommend a commit checkpoint before broader follow-up work continues
-   - prefer `vc-git-manager` for logical commit splitting of execution changes before UPDATE PROCESS when the worktree contains implementation changes from the selected phase
-   - after UPDATE PROCESS changes plan or context artifacts, treat those as a separate process-artifact checkpoint rather than silently mixing them into the execution commit
-   - if cleanup/context capture is required first, route through UPDATE PROCESS explicitly
-   - if the next phase is already known, name the exact next phase plan path
-   - if the current phase is not really green, keep the work on the same phase instead of pretending to advance
+9. **Inter-phase UPDATE PROCESS**
+   - route through UPDATE PROCESS to archive the completed phase plan and capture learnings
+   - update context docs, reports, and downstream phase plans as needed
+   - this step is mandatory between phases, not optional -- phase outputs must survive compaction
+
+10. **Move-on recommendation**
+    - name the exact next valid state after the phase closeout
+    - if the next phase is already known, name the exact next phase plan path
+    - if the current phase is not really green, keep the work on the same phase instead of pretending to advance
 
 This loop is mandatory. Do not jump straight from phase plan to implementation without a fresh
 research pass on large programs.
@@ -233,8 +263,13 @@ Use phase status honestly:
 - `⏳ PLANNED` — not started
 - `🔨 CODE DONE` — code exists but verification is incomplete
 - `🧪 TESTING` — validation is actively in progress
-- `✅ VERIFIED` — agreed evidence proves the phase goal
+- `✅ VERIFIED` — phase gates AND regression checks both pass with recorded evidence
 - `🚧 BLOCKED` — progress is halted by a real blocker with a next action
+
+A phase can only be `✅ VERIFIED` when both conditions are met:
+
+1. the phase's own validation gates pass with the agreed evidence
+2. regression checks against overlapping previously verified surfaces pass (or regressions were fixed and revalidated)
 
 A phase can be `✅ VERIFIED` even when the overall program is not complete.
 
@@ -281,13 +316,13 @@ After each executed phase, the orchestrator should end with a short closeout pac
    - `🚧 BLOCKED`
    - `Needs reconciliation`
 3. what green actually proves
-4. what remains outside this phase
-5. whether UPDATE PROCESS is the next required step
-6. the exact next phase or follow-up plan if known
+4. regression status: surfaces checked, results, any fixes applied
+5. what remains outside this phase
+6. whether UPDATE PROCESS is the next required step
+7. the exact next phase or follow-up plan if known
 
 This is how a phase program "moves on" without losing durable state or requiring the user to infer
 the next step from a long transcript.
-- later phase plans when the new learning changes future implementation or validation
 
 If a future phase would fail without the new information, the current phase is not done until that
 information is written somewhere durable.
@@ -303,6 +338,63 @@ If a phase is blocked:
 5. continue only with unblocked prerequisite or follow-up work that does not violate the phase boundary
 
 Do not force a green status by widening scope or using unsafe local-only shortcuts.
+
+## Regression Checkpoint Standard
+
+After validating the current phase's own gates (step 4), check that previously verified work still holds.
+
+**Scope selection:**
+
+- identify previously verified surfaces that overlap with this phase's blast radius
+- run the narrowest representative check for each overlapping surface
+- if the phase touches shared infrastructure (DB, container, proxy, auth), include at least one check from each earlier phase that depends on that infrastructure
+- if no earlier phases are verified yet, skip this step
+
+**Evidence format:**
+
+Record regression results in the phase report as:
+
+```
+Regression: [surface] — [PASS | FIXED | BLOCKED]
+Command: [exact command or manual step]
+Result: [1-line outcome]
+```
+
+**What counts as a representative check:**
+
+- a single test command that exercises the core path of the earlier phase
+- a manual verification step that confirms the earlier phase's key artifact still works
+- do not re-run the full validation suite of every earlier phase -- pick the narrowest check that would catch breakage
+
+## Regression-Found Workflow
+
+When a regression is detected in step 5:
+
+**Classify the regression:**
+
+| Type | Definition | Example |
+|---|---|---|
+| product breakage | previously working product behavior is broken | API endpoint returns 500, container fails to start |
+| test breakage | previously passing test now fails | Vitest suite red, Playwright spec timeout |
+| harness drift | process/agent/skill artifacts are inconsistent | context doc references a deleted file |
+| stale command drift | a previously recorded command no longer works | pnpm script renamed, env var removed |
+
+**Decision tree:**
+
+1. **Fix in place** when the regression is small, the fix is obvious, and it does not widen the current phase scope. Fix, revalidate both the regression surface and the current phase gates, then continue.
+2. **Revalidate only** when the regression is a false alarm (e.g., flaky test, transient infra). Record the finding and move on.
+3. **Route as BLOCKED** when the regression is real but fixing it would materially widen scope. Create a follow-up artifact (backlog plan or blocker note in the phase report), mark the current phase `🚧 BLOCKED`, and stop.
+
+Never paper over a regression. Always classify it and record it in the phase report, even if the fix is trivial.
+
+## Safety Defaults
+
+When designing phase validation or runtime targets:
+
+- prefer disposable runtime targets (fresh containers, temp DB, isolated ports) over shared state that earlier phases depend on
+- keep costful or manual gates explicit -- do not automate them silently
+- never overclaim what a green check proves -- state exactly what it covers and what it does not
+- if a phase requires destructive operations (DB reset, container rebuild, config wipe), isolate them so they cannot regress earlier work
 
 ## Foundation Versus Expansion
 

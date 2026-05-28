@@ -36,6 +36,8 @@ Read these files as needed:
 - [plan-lifecycle.md](process/development-protocols/plan-lifecycle.md)
 - [phase-programs.md](process/development-protocols/phase-programs.md)
 - [context-maintenance.md](process/development-protocols/context-maintenance.md)
+- [parallel-fan-out.md](process/development-protocols/parallel-fan-out.md)
+- [intent-clarification.md](process/development-protocols/intent-clarification.md)
 
 ### Orchestrator Role (Main Codex Session)
 
@@ -133,6 +135,10 @@ Large program rule:
   research subagent -> execution approval -> execute subagent -> validate subagent -> durable report/context update.
 - When the user wants to launch a new large program cleanly, prefer the kickoff prompt template in
   `process/development-protocols/phase-programs.md` rather than freehanding the structure.
+
+Intent clarification: Before auto-routing, the orchestrator scores request ambiguity per
+`process/development-protocols/intent-clarification.md`. Clear requests (score 0-1) auto-route
+silently. Ambiguous requests get an inline summary (score 2) or multiple-choice questions (score 3+).
 
 When the user explicitly invokes one of the mode names or command names from the previous
 `.claude` workflow, prefer the corresponding real agent definition in `.claude/agents/` /

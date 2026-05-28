@@ -10,28 +10,32 @@
 <div align="center">
 
 <a href="https://flowser.ai">
-  <img src="assets/flowser-logo.svg" alt="Flowser" width="120">
+  <img src="../../assets/flowser-logo.svg" alt="Flowser" width="120">
 </a>
 
-*[Flowser.ai](https://flowser.ai) 후원 — GTM을 위한 컴퓨터 기반 AI 에이전트*
+*세계적 수준의 엔지니어들이 바이브코더를 위해 만들었어요*<br>
+*[flowser.ai](https://flowser.ai) — GTM을 위한 컴퓨터 기반 AI 에이전트*
 
 <br>
 
 # vibecode-pro-max-kit
 
-**AI 코딩 에이전트가 프로젝트를 이해하기도 전에 코드부터 쓰고 있어요.<br>이 harness는 에이전트를 리서치하고, 계획 세우고, 기능을 출시할 때마다 더 똑똑해지는 시니어 엔지니어로 바꿔줘요.**
+**AI가 생각하기도 전에 코드부터 쓰는 걸 멈추세요 — 그리고 여러분의 상세한 프롬프트를 매번 까먹는 것도요.<br>이 harness는 AI 코딩 에이전트를 리서치하고, 계획 세우고, 프로덕션급 코드를 출시하고,<br>6개월이 지나도 컨텍스트 부패에서 살아남도록 스스로 메모리를 개선하는 스펙 기반 엔지니어링 팀으로 바꿔줘요.**
 
 <br>
+
+<p align="center">
+  <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
+  <br><br>
+  <em>"전집중 — 스펙의 호흡, 열 번째 형: 생생유전.<br>기능을 출시할 때마다 더 강해지는 끊임없는 개발 순환.<br>컨텍스트가 누적된다. 흐름은 절대 끊기지 않는다."</em><br>
+  <strong>— 카마도 탄지로</strong>
+</p>
 
 🔬 AI 에이전트를 위한 스펙 기반 개발<br>
 📋 PRD 자동 생성, 백로그 관리, 컨텍스트 자동 라우팅<br>
 🧠 출시할 때마다 누적되는 자기개선 지식 베이스<br>
 ⚡ 대형 작업에서 상태 잃지 않고 몇 시간이고 자율 실행<br>
 🤝 플랜과 스펙을 공유 가능 — 개발자, PM, 이해관계자가 동일한 산출물을 리뷰해요
-
-<p align="center">
-  <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
-</p>
 
 <p>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/stargazers"><img src="https://img.shields.io/github/stars/withkynam/vibecode-pro-max-kit" alt="Stars"></a>
@@ -41,8 +45,30 @@
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/withkynam/vibecode-pro-max-kit/validate.yml" alt="CI"></a>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/commits/main"><img src="https://img.shields.io/github/last-commit/withkynam/vibecode-pro-max-kit" alt="Last Commit"></a>
   <img src="https://img.shields.io/badge/agents-12-orange" alt="Agents">
-  <img src="https://img.shields.io/badge/skills-31-purple" alt="Skills">
-  <img src="https://img.shields.io/badge/platforms-Claude_Code_%7C_Codex-black" alt="Platforms">
+  <img src="https://img.shields.io/badge/skills-32-purple" alt="Skills">
+  <img src="https://img.shields.io/badge/tools-7_%E2%9C%93-38BDF8" alt="7 Tools">
+</p>
+
+<p>
+  <strong>가장 심플하고, 유연하고, 팀 친화적인 코딩 harness</strong><br><br>
+  <a href="https://github.com/anthropics/claude-code"><img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>&nbsp;
+  <a href="https://github.com/openai/codex"><img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex CLI"></a>&nbsp;
+  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"></a>&nbsp;
+  <a href="https://windsurf.com"><img src="https://img.shields.io/badge/Windsurf-09B6A2?style=for-the-badge&logo=codeium&logoColor=white" alt="Windsurf"></a><br>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="https://img.shields.io/badge/Antigravity-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Antigravity"></a>&nbsp;
+  <a href="https://github.com/opencode-ai/opencode"><img src="https://img.shields.io/badge/OpenCode-333?style=for-the-badge" alt="OpenCode"></a>&nbsp;
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"></a>
+</p>
+
+<p>
+  <em>어떤 기술 스택, 어떤 언어, 어떤 프로젝트든 동작해요</em><br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=dark&perline=15" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=light&perline=15" />
+    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&perline=15" />
+  </picture>
+  <br>
+  <sub>React · Next.js · Vue · Nuxt · Svelte · Angular · React Native · Electron · Node.js · Express · Bun · Hono · Python · Django · FastAPI · Flask · Ruby · Rails · Go · Rust · Java · Spring Boot · Kotlin · Swift · PHP · Laravel · C# · .NET · Elixir · TypeScript · Prisma · Supabase · Firebase · PostgreSQL · MongoDB · Redis · GraphQL · Docker · Kubernetes · Terraform · AWS · GCP · Azure · Vercel · Cloudflare · Tailwind · shadcn/ui · 그리고 여러분의 프로젝트가 사용하는 모든 스택</sub>
 </p>
 
 </div>
@@ -154,11 +180,15 @@ Important rules:
 <br>
 
 <details>
-<summary>📖 목차</summary>
+<summary>목차</summary>
 
 - [문제점](#-문제점)
 - [해결책](#️-해결책)
+- [바이브 코딩 혁명](#바이브-코딩-혁명)
+- [누구를 위한 건가요?](#누구를-위한-건가요)
+- [한눈에 보기](#한눈에-보기)
 - [팀이 사용하는 이유](#-팀이-사용하는-이유)
+- [비교 분석](#비교-분석)
 - [차별점](#-차별점)
 - [구성 요소](#-구성-요소)
 - [작동 방식](#-작동-방식)
@@ -176,31 +206,43 @@ Claude한테 "webhook 지원 추가해줘"라고 하면 바로 코드를 쓰기 
 
 **근데 이건 표면적인 문제일 뿐이에요.** 진짜 심각한 문제는 따로 있어요:
 
-<br>
-
-> 🧠 **세션마다 컨텍스트가 사라져요**
->
-> 에이전트가 배운 걸 다 잊어버려요. 매번 같은 실수, 같은 질문. 메모리도 없고, 지식이 누적되지도 않아요.
-
-> 📄 **문서가 순식간에 낡아져요**
->
-> 지난주에 훌륭한 컨텍스트 문서를 작성했는데 벌써 구식이에요. 코드베이스가 진화하면서 자동으로 업데이트해주는 게 아무것도 없어요.
-
-> 💥 **큰 작업은 중간에 무너져요**
->
-> 컨텍스트 윈도우가 차고, 상태가 날아가고, 에이전트가 환각을 시작해요. 3시간째에 처음부터 다시 시작하게 돼요.
-
-> 🤝 **스펙도 없고, 리뷰도 없고, 협업도 없어요**
->
-> PM이 에이전트가 뭘 만들려는지 리뷰할 수가 없어요. 코드 작성 전에 공유하고, 논의하고, 승인할 수 있는 산출물이 없어요.
-
-> 🎭 **아키텍처 결정이 환각이에요**
->
-> 에이전트가 다른 코드베이스에서 같은 문제를 어떻게 해결했는지 리서치하는 대신 패턴을 지어내요.
-
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧠</h1>
+<strong>세션마다 컨텍스트가 사라져요</strong><br><br>
+에이전트가 배운 걸 다 잊어버려요. 매번 같은 실수, 같은 질문. 메모리도 없고, 지식이 누적되지도 않아요.
+</td>
+<td width="50%" valign="top">
+<h1>📄</h1>
+<strong>문서가 순식간에 낡아져요</strong><br><br>
+지난주에 훌륭한 컨텍스트 문서를 작성했는데 벌써 구식이에요. 코드베이스가 진화하면서 자동으로 업데이트해주는 게 아무것도 없어요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>💥</h1>
+<strong>큰 작업은 중간에 무너져요</strong><br><br>
+컨텍스트 윈도우가 차고, 상태가 날아가고, 에이전트가 환각을 시작해요. 3시간째에 처음부터 다시 시작하게 돼요.
+</td>
+<td width="50%" valign="top">
+<h1>🤝</h1>
+<strong>스펙도 없고, 리뷰도 없고, 협업도 없어요</strong><br><br>
+PM이 에이전트가 뭘 만들려는지 리뷰할 수가 없어요. 코드 작성 전에 공유하고, 논의하고, 승인할 수 있는 산출물이 없어요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>아키텍처 결정이 환각이에요</strong><br><br>
+에이전트가 다른 코드베이스에서 같은 문제를 어떻게 해결했는지 리서치하는 대신 패턴을 지어내요.
+</td>
+</tr>
+</table>
 
 **에이전트에 지능은 있지만 프로세스도 없고, 메모리도 없고, 팀과 협업할 방법도 없어요.**
+
+개발자든, PM이든, 바이브 코딩을 이제 막 시작한 CEO든 — 이 문제는 모두에게 똑같이 찾아와요. 해결책도 같아요: **에이전트에게 진짜 개발 프로세스를 줘야 해요.**
 
 ---
 
@@ -210,31 +252,57 @@ Claude한테 "webhook 지원 추가해줘"라고 하면 바로 코드를 쓰기 
 
 <br>
 
-| | 해결하는 문제 | 방법 |
-|---|---|---|
-| 📋 | **스펙 기반 플랜** | PM과 개발자가 코드 작성 전에 동일한 플랜 산출물을 리뷰해요 |
-| 🔄 | **자기개선 컨텍스트** | 기능 출시 때마다 자동 업데이트 — 문서가 절대 낡지 않아요 |
-| ⚡ | **자율 실행** | 컨텍스트 압축에서도 살아남아요 — 몇 분이 아니라 몇 시간 동안 실행돼요 |
-| 🧬 | **아키텍처 리서치** | 설계 결정 전에 실제 코드베이스를 연구해요 |
-| 🧭 | **스마트 컨텍스트 라우팅** | 관련된 것만 로드해요 — 매번 전체 지식 베이스를 불러오지 않아요 |
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>📋</h1>
+<strong>스펙 기반 플랜</strong><br><br>
+<sub>PM과 개발자가 코드 작성 전에 동일한 플랜 산출물을 리뷰해요</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔄</h1>
+<strong>자기개선 컨텍스트</strong><br><br>
+<sub>기능 출시 때마다 자동 업데이트 — 문서가 절대 낡지 않아요</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<strong>자율 실행</strong><br><br>
+<sub>컨텍스트 압축에서도 살아남아요 — 몇 분이 아니라 몇 시간 동안 실행돼요</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🧬</h1>
+<strong>아키텍처 리서치</strong><br><br>
+<sub>설계 결정 전에 실제 코드베이스를 연구해요</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🧭</h1>
+<strong>스마트 컨텍스트 라우팅</strong><br><br>
+<sub>관련된 것만 로드해요 — 매번 전체 지식 베이스를 불러오지 않아요</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'lineColor': '#8888AA'}} }%%
 flowchart TD
-    R["🔍 RESEARCH\nRead codebase, gather facts"]
-    I["💡 INNOVATE\nExplore 2-3 approaches"]
-    P["📋 PLAN\nWrite detailed spec"]
-    E["⚡ EXECUTE\nImplement the plan"]
+    R["🔍 RESEARCH\n코드베이스 읽기, 팩트 수집"]
+    I["💡 INNOVATE\n2-3가지 접근 방식 탐색"]
+    P["📋 PLAN\n상세 스펙 작성"]
+    E["⚡ EXECUTE\n플랜 구현"]
     T["✅ tester → reviewer → git-manager"]
-    U["🧠 UPDATE PROCESS\nCapture learnings"]
+    U["🧠 UPDATE PROCESS\n학습 내용 캡처"]
 
-    R -->|"you say 'go'"| I
-    I -->|"you say 'go'"| P
+    R -->|"'go'라고 말하세요"| I
+    I -->|"'go'라고 말하세요"| P
     P -->|"ENTER EXECUTE MODE"| E
     E --> T
-    E -->|"recommended"| U
+    E -->|"권장"| U
 
     style R fill:#1565C0,stroke:#0D47A1,color:#FFFFFF
     style I fill:#E65100,stroke:#BF360C,color:#FFFFFF
@@ -245,6 +313,151 @@ flowchart TD
 ```
 
 모든 전환에는 **명시적인 승인**이 필요해요. 자동으로 넘어가는 건 없어요. 항상 여러분이 제어권을 갖고 있어요.
+
+---
+
+## 바이브 코딩 혁명
+
+<div align="center">
+<h3><em>"가장 핫한 프로그래밍 언어는 영어다."</em></h3>
+<strong>— Andrej Karpathy</strong>
+</div>
+
+<br>
+
+**바이브 코딩은 누가 소프트웨어를 만들 수 있는지를 바꿨어요. 스펙 기반 개발은 그들이 무엇을 출시할 수 있는지를 바꿔요.**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<h3>63%</h3>
+<sub>바이브 코딩 사용자가 개발자가 <strong>아니에요</strong></sub>
+</td>
+<td align="center" width="50%">
+<h3>1,620만 명</h3>
+<sub>전 세계 시민 개발자<br>(연간 38% 성장)</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<h3>$47억</h3>
+<sub>바이브 코딩 시장<br>연간 38% 성장</sub>
+</td>
+<td align="center" width="50%">
+<h3>25%</h3>
+<sub>YC W25 스타트업이 95%+ AI 생성 코드베이스를 보유</sub>
+</td>
+</tr>
+</table>
+
+대부분의 도구는 프로젝트를 시작하는 데 도움을 줘요. 이 harness는 프로젝트를 **완성**하는 데 도움을 줘요 — 팀이 리뷰할 수 있는 플랜, 절대 낡지 않는 컨텍스트, 그리고 실수를 출시 전에 잡아내는 안전 시스템과 함께요.
+
+---
+
+## 누구를 위한 건가요?
+
+<div align="center">
+<h3><em>"중요한 건 누가 타이핑했느냐가 아니라 무엇이 출시됐느냐다."</em></h3>
+<strong>— Garry Tan, YC</strong>
+</div>
+
+<br>
+
+바이브 코딩을 이제 막 발견했든, 프로덕션 시스템을 출시하는 스태프 엔지니어든 — 이 harness는 여러분의 워크플로우에 맞게 적응해요.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧑‍💼</h1>
+<strong>CEO / 창업자</strong><br><br>
+<em>"인증, 빌링, 랜딩 페이지가 있는 SaaS를 만들어줘"</em><br><br>
+에이전트가 스택을 리서치하고, 리뷰할 수 있는 아키텍처 플랜을 작성하고, 테스트와 함께 구현하고, 나중에 기술 공동창업자가 감사할 수 있도록 모든 결정을 기록해요.
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>프로덕트 매니저</strong><br><br>
+<em>"MRR, 이탈률, 성장 지표를 보여주는 대시보드를 만들어줘"</em><br><br>
+PRD 스타일의 스펙을 생성하고, 코드 작성 전에 승인을 받고, 스펙대로 구현하고, 플랜을 검색 가능한 프로젝트 히스토리로 아카이브해요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎨</h1>
+<strong>디자이너</strong><br><br>
+<em>"이 Figma 스크린샷을 픽셀 퍼펙트로 맞춰줘"</em><br><br>
+디자인 인식 에이전트가 목업을 분석하고, 디자인 토큰으로 컴포넌트별로 구현하고, 시각적 비교 검사를 실행해요.
+</td>
+<td width="50%" valign="top">
+<h1>⚙️</h1>
+<strong>엔지니어</strong><br><br>
+<em>"인증 모듈을 다운타임 없이 RBAC를 지원하도록 리팩토링해줘"</em><br><br>
+현재 인증 코드와 다른 코드베이스가 RBAC를 어떻게 해결했는지 리서치하고, blast radius 분석이 포함된 마이그레이션 플랜을 작성하고, 롤백 노트와 함께 안전하게 구현해요.
+</td>
+</tr>
+</table>
+
+---
+
+## 한눈에 보기
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🤖</h1>
+<h3>12</h3>
+<strong>전문 에이전트</strong><br>
+<sub>각 개발 페이즈를 담당하는 도메인 전문가</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>32</h3>
+<strong>자동 탐색 Skill</strong><br>
+<sub>키워드 매칭으로 표시되는 재사용 가능한 기능</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🪝</h1>
+<h3>7</h3>
+<strong>라이프사이클 Hook</strong><br>
+<sub>실행 전후 가드레일과 컨텍스트 주입</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>📜</h1>
+<h3>6</h3>
+<strong>개발 프로토콜</strong><br>
+<sub>모든 도구에서 공유되는 워크플로우 규칙</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🛡️</h1>
+<h3>5</h3>
+<strong>안전 시스템</strong><br>
+<sub>Phase-locking, blast radius, 프라이버시, 누출 감지</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔧</h1>
+<h3>7</h3>
+<strong>지원 도구</strong><br>
+<sub>Claude Code, Codex, Cursor, Windsurf, Antigravity, OpenCode, Copilot</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🌍</h1>
+<h3>6</h3>
+<strong>언어</strong><br>
+<sub>EN · 中文 · 日本語 · 한국어 · Tiếng Việt · Portugues</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>30초</h3>
+<strong>설치 시간</strong><br>
+<sub>curl 한 줄 + 자동 설정이 나머지를 해줘요</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -323,78 +536,69 @@ process/context/
 
 ---
 
+## 비교 분석
+
+| 기능 | vibecode-pro-max-kit | Superpowers | GSD | gstack |
+|---------|---------------------|-------------|-----|--------|
+| 스펙 기반 라이프사이클 | 완전한 RIPER-5 (리서치 → 플랜 → 실행 → 검증) | 필수 워크플로우 | 컨텍스트 부패 해결 | 부분적 |
+| Phase-locked 안전성 | 모드별 도구 제한 (리서치는 읽기 전용, innovate는 쓰기 불가) | Skill 기반 제약 | 페이즈 분리 | 없음 |
+| 멀티 도구 지원 | AGENTS.md + 네이티브로 7개 도구 | Claude Code 플러그인 | 14개 런타임 | 1개 도구 |
+| 자동 개선 컨텍스트 | 도메인 라우팅 컨텍스트 그룹, 기능 완료마다 업데이트 | 플러그인 메모리 | 디스크 영속 상태 | 수동 |
+| 팀 협업 | 공유 스펙, 플랜, 리뷰 산출물 | 솔로 | 솔로 | 솔로 |
+| Skill 시스템 | 32개 자동 탐색, 모든 프롬프트에서 키워드 매칭 | 86개 조합형 skill | 메타 프롬프팅 | 23개 역할 도구 |
+| 멀티 페이즈 프로그램 | Umbrella 플랜 + 리그레션 체크가 있는 페이즈별 실행 루프 | 단일 작업 | 단일 작업 | 단일 작업 |
+| 품질 파이프라인 | 6단계 체인 (코드 리뷰 → 테스트 → 간소화 → 보안 → 감사 → 커밋) | Skill별 품질 | 자동 체인 없음 | 자동 체인 없음 |
+| 설치 | 30초 `curl` 설치 + 자동 설정 | 플러그인 마켓플레이스 | npx 한 줄 | git clone |
+| 컨텍스트 라우팅 | 그룹화된 컨텍스트 팩이 있는 도메인 기반 라우팅 테이블 | 플랫 skill 컨텍스트 | 플랫 컨텍스트 | 단일 파일 |
+
+> **런타임 범위에 대해:** GSD는 14개 런타임을 지원해요. 저희는 7개를 깊이 있게 지원해요 — 모든 플랫폼에 완전한 에이전트 harness, skill 탐색, 라이프사이클 hook이 있어요. 범위 vs. 깊이: 여러분의 선택이에요.
+
+---
+
 ## ⚡ 차별점
 
 대부분의 에이전트 harness는 큰 CLAUDE.md 하나랑 지침만 줘요. 이건 실제로 뭘 하는지 보여줄게요:
 
 <br>
 
-### 🔒 Phase-Locked 도구 제한
-
-에이전트가 리서치 중에는 말 그대로 코드를 **작성할 수 없어요**.
-
-> 각 페이즈에 에이전트 레벨에서 도구 제한이 적용돼요 — RESEARCH는 읽기 전용, INNOVATE는 Bash 접근이 아예 없고, PLAN은 `process/` 디렉토리에만 쓸 수 있어요. 무시할 수 있는 지침이 아니에요 — **실제로 기능 자체를 제거해버려요**.
-
-<br>
-
-### 🎯 의도 감지 기반 스마트 자동 라우팅
-
-시스템이 자연어에서 의도를 감지하고 올바른 파이프라인으로 자동 라우팅해요.
-
-| 여러분이 말하면 | 시스템이 감지하는 것 | 라우팅 대상 |
-|---|---|---|
-| "build webhook support" | 기능 요청 | 🔍 research → 💡 innovate → 📋 plan → ⚡ execute |
-| "login is broken" | 버그 | 🐛 debugger → ⚡ execute |
-| "clean up the auth module" | 리팩토링 | ✨ code-simplifier (행동 변경이면 전체 파이프라인) |
-| "add rate limiting" | 기능 (빠름) | ⏩ fast-mode (압축 파이프라인) |
-
-> 💡 여러 의도가 겹칠 때 충돌을 해결하는 6단계 우선순위가 있어요. 질문은 최대 하나 — 20개 질문 연발은 절대 없어요.
-
-<br>
-
-### 🔍 자동 Skill 탐색 (Step 0)
-
-요청을 라우팅하기 전에, orchestrator가 **31개 skill**을 스캔하고 키워드를 매칭해요.
-
-> "add webhook support"라고 하면 기능 워크플로우와 함께 `vc-security`와 `vc-scenario`가 자동으로 표시돼요. 어떤 skill이 있는지 알 필요 없어요 — **skill이 알아서 찾아와요**.
-
-<br>
-
-### 💾 컨텍스트 윈도우 압축에서 살아남아요
-
-컨텍스트 윈도우가 꽉 차도 **아무것도 잃지 않아요**.
-
-```
-Plans          →  process/general-plans/active/
-Reports        →  process/features/{feature}/reports/
-Context docs   →  process/context/{domain}/all-{domain}.md
-Learnings      →  process/context/all-context.md
-Approval state →  re-injected by session-init hook after compaction
-```
-
-> 💡 session-init hook이 압축 이벤트를 감지하고 승인 게이트 상태를 다시 주입해요 — 그래서 에이전트가 이미 받은 승인을 몰래 건너뛸 수 없어요.
-
-<br>
-
-### 🛡️ 자체 감시 위반 감지
-
-모든 에이전트에 내장된 중단 프로토콜이 있어요.
-
-> 페이즈 경계를 넘으려는 걸 감지하면 스스로 멈춰요: *"PHASE JUMPING PREVENTED: [activity] belongs to EXECUTE but I'm in RESEARCH mode."* 이건 **구조적 환각 방지 장치**예요.
-
-<br>
-
-### 🔄 Claude Code와 Codex 모두에서 동작해요
-
-플랜, 컨텍스트, skill은 공유 산출물이에요.
-
-```
-.claude/agents/        ←→  .codex/agents/         # mirrored
-.claude/skills/        ←→  .agents/skills          # symlinked
-process/               ←→  shared by both          # plans, context, features
-```
-
-> 💡 Claude Code에서 시작하고 Codex에서 이어서 작업하세요. 같은 에이전트, 같은 skill, 같은 워크플로우예요.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔒</h1>
+<strong>Phase-Locked 도구 제한</strong><br><br>
+에이전트가 리서치 중에는 말 그대로 코드를 <strong>작성할 수 없어요</strong>. RESEARCH는 읽기 전용, INNOVATE는 Bash 접근이 아예 없고, PLAN은 <code>process/</code> 디렉토리에만 쓸 수 있어요. <strong>실제로 기능 자체를 제거해버려요</strong>, 제안이 아니에요.
+</td>
+<td width="50%" valign="top">
+<h1>🎯</h1>
+<strong>스마트 자동 라우팅</strong><br><br>
+자연어에서 의도를 감지해요. "build webhook support" → 전체 파이프라인. "login is broken" → 디버거. 6단계 우선순위, 질문은 최대 하나.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔍</h1>
+<strong>자동 Skill 탐색</strong><br><br>
+요청을 라우팅하기 전에 <strong>32개 skill</strong>을 스캔하고 키워드를 매칭해요. "add webhook support"라고 하면 <code>vc-security</code> + <code>vc-scenario</code>가 자동으로 표시돼요.
+</td>
+<td width="50%" valign="top">
+<h1>💾</h1>
+<strong>컨텍스트 윈도우 압축에서 살아남아요</strong><br><br>
+플랜, 리포트, 컨텍스트 문서, 학습 내용이 모두 디스크에 있어요. session-init hook이 압축 후 승인 게이트를 다시 주입해요. <strong>아무것도 잃지 않아요.</strong>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🛡️</h1>
+<strong>자체 감시 위반 감지</strong><br><br>
+에이전트가 페이즈 경계를 넘으려는 걸 감지하면 스스로 멈춰요: <em>"PHASE JUMPING PREVENTED"</em>. <strong>구조적 환각 방지 장치</strong>예요.
+</td>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>7개 AI 코딩 도구에서 동작해요</strong><br><br>
+두 가지 오픈 표준 — <code>AGENTS.md</code>와 <code>SKILL.md</code> — 덕분에 <strong>어댑터도, 플러그인도, 설정도 필요 없어요.</strong> Claude Code에서 시작하고, Cursor로 전환하고, Codex에서 이어서 작업하세요.
+</td>
+</tr>
+</table>
 
 ---
 
@@ -477,31 +681,44 @@ You: "improve test coverage to 80% using vc-autoresearch"
 
 이건 그냥 가이드라인이 아니에요 — 모든 에이전트에 내장된 **구조적 강제**예요.
 
-<br>
-
-> ⏸️ **50% 중간 체크인**
->
-> 실행 중 대략 절반 지점에서 에이전트가 **일시 정지**하고, 진행 상황을 보고하고, 완료된 항목과 남은 항목을 나열하고, 물어봐요: *"현재 접근 방식으로 계속할까요, 아니면 일시 정지하고 PLAN으로 돌아갈까요?"*
-
-> 🚫 **무단 이탈 금지**
->
-> execute-agent가 플랜에서 벗어나야 하는 문제를 만나면, **즉시 멈추고** 문제를 설명하고 PLAN 모드로 돌아가요. 조용히 즉흥적으로 하는 거 없어요.
-
-> 🔙 **접근 방식 포기 프로토콜**
->
-> 접근 방식이 실패하면 에이전트가 재사용 가능한 컴포넌트를 평가하고, 삭제 전에 교훈을 문서화하고, 포기 요약을 작성하고, PLAN으로 돌아가요. 지식은 보존되고, 잃어버리지 않아요.
-
-> 🔐 **프라이버시 가드레일 Hook**
->
-> 에이전트가 `.env`, 자격 증명, SSH 키, `.pem` 파일을 **읽는 것이 차단**돼요. 명시적 승인을 요청해야 해요. Fail-open 설계라 hook이 고장나도 워크플로우를 막지 않아요.
-
-> ⚠️ **고위험 증거 팩**
->
-> 인증, 빌링, 스키마 마이그레이션, 또는 공개 API를 건드리는 변경 — 시스템이 작업이 "완료"되기 전에 공식 증거 팩을 요구해요. 증거가 없으면 자동 정지해요.
-
-> 📊 **Drift Signal Scoring**
->
-> 실행 후, 시스템이 프로세스 업데이트 긴급도를 점수화해요: **LOW** (가벼운 터치), **MEDIUM** (상당한 변경), **HIGH** (harness/프로토콜 파일 수정). 작은 변경은 가벼운 넛지를 받고, 프로토콜 변경은 강한 푸시를 받아요.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>⏸️</h1>
+<strong>50% 중간 체크인</strong><br><br>
+실행 중 대략 절반 지점에서 에이전트가 <strong>일시 정지</strong>하고, 진행 상황을 보고하고, 완료된 항목과 남은 항목을 나열하고, 물어봐요: <em>"현재 접근 방식으로 계속할까요, 아니면 일시 정지하고 PLAN으로 돌아갈까요?"</em>
+</td>
+<td width="50%" valign="top">
+<h1>🚫</h1>
+<strong>무단 이탈 금지</strong><br><br>
+execute-agent가 플랜에서 벗어나야 하는 문제를 만나면, <strong>즉시 멈추고</strong> 문제를 설명하고 PLAN 모드로 돌아가요. 조용히 즉흥적으로 하는 거 없어요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔙</h1>
+<strong>접근 방식 포기 프로토콜</strong><br><br>
+접근 방식이 실패하면 에이전트가 재사용 가능한 컴포넌트를 평가하고, 삭제 전에 교훈을 문서화하고, 포기 요약을 작성하고, PLAN으로 돌아가요.
+</td>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>프라이버시 가드레일 Hook</strong><br><br>
+에이전트가 <code>.env</code>, 자격 증명, SSH 키, <code>.pem</code> 파일을 <strong>읽는 것이 차단</strong>돼요. 명시적 승인을 요청해야 해요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>⚠️</h1>
+<strong>고위험 증거 팩</strong><br><br>
+인증, 빌링, 스키마 마이그레이션, 또는 공개 API를 건드리는 변경 — 시스템이 작업이 "완료"되기 전에 공식 증거 팩을 요구해요.
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>Drift Signal Scoring</strong><br><br>
+실행 후, 시스템이 프로세스 업데이트 긴급도를 점수화해요: <strong>LOW</strong> (가벼운 터치), <strong>MEDIUM</strong> (상당한 변경), <strong>HIGH</strong> (harness/프로토콜 파일 수정).
+</td>
+</tr>
+</table>
 
 ---
 
@@ -511,41 +728,27 @@ You: "improve test coverage to 80% using vc-autoresearch"
 
 <br>
 
-### 🎭 5-페르소나 구현 전 토론
-
-**Skill:** `vc-predict`
-
-| 페르소나 | 집중 영역 |
-|---|---|
-| 🏗️ **Architect** | 구조적 무결성, 확장성, 기술 부채 |
-| 🔐 **Security** | 공격 표면, 인증 흐름, 데이터 노출 |
-| ⚡ **Performance** | 지연 시간, 메모리, 확장성 병목 |
-| 🎨 **UX** | 사용자 영향, 엣지 케이스, 접근성 |
-| 😈 **Devil's Advocate** | *"아무것도 안 하면 안 되나?"* — 전제 자체에 도전 |
-
-> 💡 합의점을 찾고, 트레이드오프 가중치를 통해 충돌을 해결하고, **GO / CAUTION / STOP** 판정을 내려요.
-
-<br>
-
-### 🎲 12차원 엣지 케이스 생성기
-
-**Skill:** `vc-scenario`
-
-> 모든 기능을 **12개 차원**에 걸쳐 분해하고 — 차원당 3-5개 시나리오를 심각도별로 정렬해서 생성해요. 출력은 테스트 스펙으로 바로 사용 가능해요.
-
-| | | | |
-|---|---|---|---|
-| 👤 User Types | 📥 Input Extremes | ⏱️ Timing | 📈 Scale |
-| 🔄 State Transitions | 🌍 Environment | 💥 Error Cascades | 🔑 Authorization |
-| 💾 Data Integrity | 🔌 Integration | 📋 Compliance | 💰 Business Logic |
-
-<br>
-
-### 🔐 STRIDE + OWASP 보안 감사
-
-**Skill:** `vc-security`
-
-> **STRIDE 위협 모델링**과 **OWASP Top 10**을 결합한 이중 방법론 보안 감사예요. 의존성 감사, 시크릿 탐지, 그리고 심각도별로 정렬하여 Critical부터 수정하는 **자동 수정 모드**가 포함돼 있어요 — 각 단계마다 리그레션 가드도 있어요.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>5-페르소나 구현 전 토론</strong><br><br>
+<code>vc-predict</code> — Architect, Security, Performance, UX, Devil's Advocate가 플랜을 토론해요. 코드 한 줄 쓰기 전에 <strong>GO / CAUTION / STOP</strong> 판정을 내려요.
+</td>
+<td width="50%" valign="top">
+<h1>🎲</h1>
+<strong>12차원 엣지 케이스 생성기</strong><br><br>
+<code>vc-scenario</code> — 모든 기능을 12개 차원(사용자 유형, 입력 극단값, 타이밍, 규모, 상태, 환경, 에러, 인증, 데이터, 통합, 규정, 비즈니스 로직)에 걸쳐 분해해요. 출력은 테스트 스펙으로 바로 사용 가능해요.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>STRIDE + OWASP 보안 감사</strong><br><br>
+<code>vc-security</code> — 의존성 감사, 시크릿 탐지가 포함된 이중 방법론 보안 감사에요. Critical부터 수정하고 리그레션 가드가 있는 <strong>자동 수정 모드</strong>가 있어요.
+</td>
+</tr>
+</table>
 
 ---
 
@@ -553,42 +756,27 @@ You: "improve test coverage to 80% using vc-autoresearch"
 
 <br>
 
-### 🔄 자율 메트릭 최적화
-
-**Skill:** `vc-autoresearch`
-
-목표를 설정하고 자리를 비우세요. 에이전트가 측정 가능한 모든 메트릭에 대해 **반복적이고 git-backed 최적화 루프**를 실행해요:
-
-> 📈 테스트 커버리지 · 📦 번들 사이즈 · ⚠️ ESLint 에러 · 🚀 Lighthouse 점수
-
-각 반복마다 **하나의 atomic 변경** → 커밋 → 측정 → 유지 또는 되돌리기를 해요.
-
-> 💡 5번 연속 폐기 후 stuck 감지가 전략 전환을 트리거해요. TSV로 전체 감사 추적이 가능해요.
-
-<br>
-
-### 👥 병렬 에이전트 팀
-
-**Skill:** `vc-team`
-
-여러 독립 에이전트가 순차적이 아니라 **동시에** 작업해요:
-
-| 템플릿 | 작동 방식 |
-|---|---|
-| 🔍 **Research** | N개의 각도를 병렬로 탐색 |
-| ⚡ **Execute** | **git worktree 격리**로 병렬 개발 (파일 충돌 제로) |
-| 🔎 **Review** | 독립 리뷰어들이 중복 제거되고 심각도별로 정렬된 결과를 생성 |
-| 🐛 **Debug** | 경쟁 가설을 적대적으로 테스트 — 디버거들이 서로의 가설을 반증하려고 해요 |
-
-<br>
-
-### 🔬 증거 우선 가설 디버깅
-
-**Agent:** `vc-debugger`
-
-> 디버거가 먼저 증거를 수집하고 → 2-3개의 경쟁 가설을 세우고 → 각각을 체계적으로 테스트하고 → 소거 경로를 문서화하고 → 증거 체인과 함께 근본 원인을 진술해요.
-
-**절대 추측하지 않아요 — 증명해요.** 그리고 수정을 구현하지도 않아요 — execute-agent에게 "수정 경계"를 넘겨줘요.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>자율 메트릭 최적화</strong><br><br>
+<code>vc-autoresearch</code> — 목표를 설정하고 자리를 비우세요. 반복적인 git-backed 루프: 하나의 atomic 변경 → 커밋 → 측정 → 유지 또는 되돌리기. 5번 연속 폐기 후 stuck 감지가 전략 전환을 트리거해요.
+</td>
+<td width="50%" valign="top">
+<h1>👥</h1>
+<strong>병렬 에이전트 팀</strong><br><br>
+<code>vc-team</code> — 여러 에이전트가 git worktree 격리로 <strong>동시에</strong> 작업해요. 병렬 리서치, 병렬 실행, 병렬 리뷰, 적대적 디버깅.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔬</h1>
+<strong>증거 우선 가설 디버깅</strong><br><br>
+<code>vc-debugger</code> — 먼저 증거를 수집하고 → 2-3개의 경쟁 가설을 세우고 → 각각을 체계적으로 테스트하고 → 소거 경로를 문서화해요. <strong>절대 추측하지 않아요 — 증명해요.</strong>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -601,12 +789,12 @@ execute-agent가 코드만 쓰고 끝이라고 하지 않아요. **품질 파이
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'lineColor': '#8888AA'}} }%%
 flowchart TD
-    E["⚡ Execute-Agent\nImplements the plan"]
-    SR["🔎 Self-Review\nLine-by-line check\nagainst plan"]
-    T["🧪 Tester\nDiff-aware — only\nruns affected tests"]
-    CR["🔍 Code Reviewer\nEdge case scout\n+ adversarial review"]
-    CS["✨ Code Simplifier\nClarity refactoring"]
-    GM["📦 Git Manager\nLogical commit splitting\nfrom touched_files"]
+    E["⚡ Execute-Agent\n플랜 구현"]
+    SR["🔎 Self-Review\n플랜 대비 라인별 확인"]
+    T["🧪 Tester\nDiff 인식 — 영향 받는\n테스트만 실행"]
+    CR["🔍 Code Reviewer\n엣지 케이스 스카우트\n+ 적대적 리뷰"]
+    CS["✨ Code Simplifier\n가독성 리팩토링"]
+    GM["📦 Git Manager\ntouched_files에서\n논리적 커밋 분할"]
 
     E --> SR
     SR --> T
@@ -643,22 +831,22 @@ flowchart TD
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'lineColor': '#8888AA'}} }%%
 flowchart TD
-    A["🆕 Feature Request"]
-    B["📝 Plan Created\nin active/"]
-    C{"👀 User Reviews\nthe Plan"}
-    D["⚡ Execute Against Plan"]
-    E["📦 Plan Archived\nto completed/"]
-    F["🧠 Learnings Written\nto all-context.md"]
-    G["🔄 Next Feature\nStarts Smarter"]
+    A["🆕 기능 요청"]
+    B["📝 플랜 생성\nactive/에"]
+    C{"👀 사용자가\n플랜을 리뷰"}
+    D["⚡ 플랜 기반 실행"]
+    E["📦 플랜 아카이브\ncompleted/로"]
+    F["🧠 학습 내용 기록\nall-context.md에"]
+    G["🔄 다음 기능은\n더 똑똑하게 시작"]
 
     A --> B
     B --> C
-    C -->|"✅ Approved"| D
-    C -->|"✏️ Needs Changes"| B
+    C -->|"✅ 승인됨"| D
+    C -->|"✏️ 수정 필요"| B
     D --> E
     E --> F
     F --> G
-    G -.->|"context compounds"| A
+    G -.->|"컨텍스트가 누적됨"| A
 
     style A fill:#1565C0,stroke:#0D47A1,color:#FFFFFF
     style B fill:#E65100,stroke:#BF360C,color:#FFFFFF
@@ -706,33 +894,33 @@ process/
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'lineColor': '#8888AA'}} }%%
 flowchart TD
-    UP["🎯 Umbrella Plan\nOverall program goal"]
-    P1["📋 Phase 1 Plan"]
-    P2["📋 Phase 2 Plan"]
-    P3["📋 Phase 3 Plan"]
+    UP["🎯 Umbrella Plan\n전체 프로그램 목표"]
+    P1["📋 Phase 1 플랜"]
+    P2["📋 Phase 2 플랜"]
+    P3["📋 Phase 3 플랜"]
 
-    R1["🔍 Re-Research"]
-    E1["⚡ Execute"]
-    V1["✅ Validate"]
-    RP1["📄 Durable Report"]
+    R1["🔍 리리서치"]
+    E1["⚡ 실행"]
+    V1["✅ 검증"]
+    RP1["📄 Durable 리포트"]
 
-    R2["🔍 Re-Research"]
-    E2["⚡ Execute"]
-    V2["✅ Validate"]
-    RP2["📄 Durable Report"]
+    R2["🔍 리리서치"]
+    E2["⚡ 실행"]
+    V2["✅ 검증"]
+    RP2["📄 Durable 리포트"]
 
     UP --> P1
     UP --> P2
     UP --> P3
 
     P1 --> R1
-    R1 -->|"approval"| E1
+    R1 -->|"승인"| E1
     E1 --> V1
     V1 --> RP1
-    RP1 -.->|"learnings feed\nnext phase"| R2
+    RP1 -.->|"학습이 다음\n페이즈에 전달"| R2
 
     P2 --> R2
-    R2 -->|"approval"| E2
+    R2 -->|"승인"| E2
     E2 --> V2
     V2 --> RP2
 

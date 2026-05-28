@@ -10,28 +10,32 @@
 <div align="center">
 
 <a href="https://flowser.ai">
-  <img src="assets/flowser-logo.svg" alt="Flowser" width="120">
+  <img src="../../assets/flowser-logo.svg" alt="Flowser" width="120">
 </a>
 
-*Patrocinado por [Flowser.ai](https://flowser.ai) — Agentes de IA com computadores para GTM*
+*Feito por engenheiros de classe mundial, para vibecoders na*<br>
+*[flowser.ai](https://flowser.ai) — Agentes de IA com computadores para GTM*
 
 <br>
 
 # vibecode-pro-max-kit
 
-**Seu agente de código AI começa a escrever código antes de entender seu projeto.<br>Esse harness transforma ele num engenheiro sênior que pesquisa, planeja e fica mais inteligente a cada feature.**
+**Pare seu AI de codar antes de pensar — e de esquecer cada prompt detalhado que voce mandou.<br>Esse harness transforma qualquer agente de codigo AI num time de engenharia orientado a specs<br>que pesquisa, planeja, entrega codigo production-grade, e auto-aprimora sua memoria pra sobreviver ao apodrecimento de contexto mesmo 6 meses depois.**
 
 <br>
 
-🔬 Desenvolvimento orientado a specs para agentes de IA<br>
-📋 Gera PRDs automaticamente, gerencia backlogs, roteia contexto automaticamente<br>
-🧠 Base de conhecimento que se auto-aprimora e acumula conforme você entrega<br>
-⚡ Roda de forma autônoma por horas em tarefas grandes sem perder estado<br>
-🤝 Planos e specs são compartilháveis — devs, PMs e stakeholders revisam os mesmos artefatos
-
 <p align="center">
   <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
+  <br><br>
+  <em>"Concentracao Total — Respiracao Spec, Decima Forma: Fluxo Constante.<br>Um ciclo de desenvolvimento continuo que fica mais forte a cada feature entregue.<br>O contexto acumula. O flow nunca quebra."</em><br>
+  <strong>— Tanjiro Kamado</strong>
 </p>
+
+🔬 Desenvolvimento orientado a specs para agentes de IA<br>
+📋 Gera PRDs automaticamente, gerencia backlogs, roteia contexto automaticamente<br>
+🧠 Base de conhecimento que se auto-aprimora e acumula conforme voce entrega<br>
+⚡ Roda de forma autonoma por horas em tarefas grandes sem perder estado<br>
+🤝 Planos e specs sao compartilhaveis — devs, PMs e stakeholders revisam os mesmos artefatos
 
 <p>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/stargazers"><img src="https://img.shields.io/github/stars/withkynam/vibecode-pro-max-kit" alt="Stars"></a>
@@ -41,15 +45,37 @@
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/withkynam/vibecode-pro-max-kit/validate.yml" alt="CI"></a>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/commits/main"><img src="https://img.shields.io/github/last-commit/withkynam/vibecode-pro-max-kit" alt="Last Commit"></a>
   <img src="https://img.shields.io/badge/agents-12-orange" alt="Agents">
-  <img src="https://img.shields.io/badge/skills-31-purple" alt="Skills">
-  <img src="https://img.shields.io/badge/platforms-Claude_Code_%7C_Codex-black" alt="Platforms">
+  <img src="https://img.shields.io/badge/skills-32-purple" alt="Skills">
+  <img src="https://img.shields.io/badge/tools-7_%E2%9C%93-38BDF8" alt="7 Tools">
+</p>
+
+<p>
+  <strong>O harness de coding mais simples, flexivel e team-friendly para</strong><br><br>
+  <a href="https://github.com/anthropics/claude-code"><img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>&nbsp;
+  <a href="https://github.com/openai/codex"><img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex CLI"></a>&nbsp;
+  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"></a>&nbsp;
+  <a href="https://windsurf.com"><img src="https://img.shields.io/badge/Windsurf-09B6A2?style=for-the-badge&logo=codeium&logoColor=white" alt="Windsurf"></a><br>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="https://img.shields.io/badge/Antigravity-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Antigravity"></a>&nbsp;
+  <a href="https://github.com/opencode-ai/opencode"><img src="https://img.shields.io/badge/OpenCode-333?style=for-the-badge" alt="OpenCode"></a>&nbsp;
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"></a>
+</p>
+
+<p>
+  <em>Funciona com qualquer stack, qualquer linguagem, qualquer projeto</em><br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=dark&perline=15" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=light&perline=15" />
+    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&perline=15" />
+  </picture>
+  <br>
+  <sub>React · Next.js · Vue · Nuxt · Svelte · Angular · React Native · Electron · Node.js · Express · Bun · Hono · Python · Django · FastAPI · Flask · Ruby · Rails · Go · Rust · Java · Spring Boot · Kotlin · Swift · PHP · Laravel · C# · .NET · Elixir · TypeScript · Prisma · Supabase · Firebase · PostgreSQL · MongoDB · Redis · GraphQL · Docker · Kubernetes · Terraform · AWS · GCP · Azure · Vercel · Cloudflare · Tailwind · shadcn/ui · e qualquer outra stack que seu projeto use</sub>
 </p>
 
 </div>
 
 ---
 
-## 🚀 Instalação (30 segundos)
+## 🚀 Instalacao (30 segundos)
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/withkynam/vibecode-pro-max-kit/main/install.sh | bash
@@ -61,19 +87,19 @@ Depois abra o Claude Code e diga:
 Run vc-setup
 ```
 
-É isso. A skill de setup detecta sua stack, pergunta sobre seu projeto (uma conversa de verdade, não um checklist), cria a estrutura do diretório process, faz um scan profundo do seu codebase e popula os arquivos de contexto com conteúdo real — não placeholders.
+E isso. A skill de setup detecta sua stack, pergunta sobre seu projeto (uma conversa de verdade, nao um checklist), cria a estrutura do diretorio process, faz um scan profundo do seu codebase e popula os arquivos de contexto com conteudo real — nao placeholders.
 
 <br>
 
 <details>
-<summary><strong>📦 O que é instalado</strong></summary>
+<summary><strong>📦 O que e instalado</strong></summary>
 
 <br>
 
 ```
 your-project/
 ├── .claude/
-│   ├── agents/              # 🤖 12 definições de agentes especializados
+│   ├── agents/              # 🤖 12 definicoes de agentes especializados
 │   │   ├── vc-research-agent.md
 │   │   ├── vc-execute-agent.md
 │   │   └── ...
@@ -90,19 +116,19 @@ your-project/
 │   └── agents/              # 🔄 Agentes espelhados para Codex
 ├── CLAUDE.md                # 📋 Orquestrador + regras de roteamento
 ├── AGENTS.md                # 📖 Registro de agentes
-└── process/                 # 🧠 Criado pelo vc-setup (não pelo install)
+└── process/                 # 🧠 Criado pelo vc-setup (nao pelo install)
     └── ...
 ```
 
 - **Projeto novo?** Instala o harness completo, depois o `vc-setup` estuda seu codebase
-- **Já tem `.claude/` configurado?** Faz backup em `.vibecode-backup/`, instala do zero, restaura seu `settings.json`
-- **Já tem diretório `process/`?** Nunca é tocado pelo install — o `vc-setup` cuida da migração de forma inteligente
-- **Já tem `CLAUDE.md`?** Faz backup como `CLAUDE.md.pre-vibecode`, instala a versão do harness
+- **Ja tem `.claude/` configurado?** Faz backup em `.vibecode-backup/`, instala do zero, restaura seu `settings.json`
+- **Ja tem diretorio `process/`?** Nunca e tocado pelo install — o `vc-setup` cuida da migracao de forma inteligente
+- **Ja tem `CLAUDE.md`?** Faz backup como `CLAUDE.md.pre-vibecode`, instala a versao do harness
 
 </details>
 
 <details>
-<summary><strong>🤖 Prompt completo de setup do agente</strong> (copie e cole no Claude Code para máximo controle)</summary>
+<summary><strong>🤖 Prompt completo de setup do agente</strong> (copie e cole no Claude Code para maximo controle)</summary>
 
 ```
 First, install the vibecode-pro-max-kit agent harness by running this command:
@@ -154,15 +180,19 @@ Important rules:
 <br>
 
 <details>
-<summary>📖 Sumário</summary>
+<summary>Sumario</summary>
 
 - [O Problema](#-o-problema)
-- [A Solução](#️-a-solução)
+- [A Solucao](#️-a-solucao)
+- [A Revolucao do Vibe Coding](#a-revolucao-do-vibe-coding)
+- [Pra Quem E Isso?](#pra-quem-e-isso)
+- [Visao Geral](#visao-geral)
 - [Por Que Times Usam Isso](#-por-que-times-usam-isso)
+- [Como Se Compara](#como-se-compara)
 - [O Que Torna Isso Diferente](#-o-que-torna-isso-diferente)
 - [O Que Tem Dentro](#-o-que-tem-dentro)
 - [Como Funciona](#-como-funciona)
-- [Sistemas de Segurança Integrados](#️-sistemas-de-segurança-integrados)
+- [Sistemas de Seguranca Integrados](#️-sistemas-de-seguranca-integrados)
 - [Contribuindo](#contribuindo)
 - [Star History](#-star-history)
 
@@ -172,51 +202,89 @@ Important rules:
 
 ## 🔥 O Problema
 
-Você pede pro Claude "adicionar suporte a webhooks." Ele imediatamente começa a escrever código. Sem perguntas sobre sua arquitetura. Sem verificar padrões existentes. Sem plano. Você recebe 400 linhas que não encaixam no seu codebase, e gasta uma hora consertando.
+Voce pede pro Claude "adicionar suporte a webhooks." Ele imediatamente comeca a escrever codigo. Sem perguntas sobre sua arquitetura. Sem verificar padroes existentes. Sem plano. Voce recebe 400 linhas que nao encaixam no seu codebase, e gasta uma hora consertando.
 
-**Mas isso é só a superfície.** Os problemas mais profundos doem mais:
+**Mas isso e so a superficie.** Os problemas mais profundos doem mais:
 
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧠</h1>
+<strong>O contexto morre a cada sessao</strong><br><br>
+Seu agente esquece tudo que aprendeu. Mesmos erros, mesmas perguntas, toda vez. Sem memoria, sem conhecimento acumulado.
+</td>
+<td width="50%" valign="top">
+<h1>📄</h1>
+<strong>Docs ficam desatualizados instantaneamente</strong><br><br>
+Voce escreveu otimos docs de contexto semana passada. Ja estao desatualizados. Nada atualiza eles automaticamente conforme o codebase evolui.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>💥</h1>
+<strong>Tarefas grandes colapsam no meio do caminho</strong><br><br>
+A context window enche, o estado se perde, o agente comeca a alucinar. Voce recomeca do zero na hora 3.
+</td>
+<td width="50%" valign="top">
+<h1>🤝</h1>
+<strong>Sem specs, sem revisao, sem colaboracao</strong><br><br>
+Seu PM nao consegue revisar o que o agente vai construir. Nao existe artefato pra compartilhar, discutir ou aprovar antes do codigo ser escrito.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>Decisoes de arquitetura sao alucinadas</strong><br><br>
+O agente inventa padroes em vez de pesquisar como outros codebases resolveram o mesmo problema.
+</td>
+</tr>
+</table>
 
-> 🧠 **O contexto morre a cada sessão**
->
-> Seu agente esquece tudo que aprendeu. Mesmos erros, mesmas perguntas, toda vez. Sem memória, sem conhecimento acumulado.
+**Seu agente tem inteligencia mas nao tem processo, memoria, e nem como colaborar com seu time.**
 
-> 📄 **Docs ficam desatualizados instantaneamente**
->
-> Você escreveu ótimos docs de contexto semana passada. Já estão desatualizados. Nada atualiza eles automaticamente conforme o codebase evolui.
-
-> 💥 **Tarefas grandes colapsam no meio do caminho**
->
-> A context window enche, o estado se perde, o agente começa a alucinar. Você recomeça do zero na hora 3.
-
-> 🤝 **Sem specs, sem revisão, sem colaboração**
->
-> Seu PM não consegue revisar o que o agente vai construir. Não existe artefato pra compartilhar, discutir ou aprovar antes do código ser escrito.
-
-> 🎭 **Decisões de arquitetura são alucinadas**
->
-> O agente inventa padrões em vez de pesquisar como outros codebases resolveram o mesmo problema.
-
-<br>
-
-**Seu agente tem inteligência mas não tem processo, memória, e nem como colaborar com seu time.**
+Seja voce um desenvolvedor, um PM, ou um CEO que acabou de descobrir o vibe coding — esse problema atinge todo mundo da mesma forma. A solucao tambem e a mesma: **de pro seu agente um processo de desenvolvimento de verdade.**
 
 ---
 
-## 🛠️ A Solução
+## 🛠️ A Solucao
 
-Esse harness instala um sistema de desenvolvimento completo no seu projeto — não é só um arquivo CLAUDE.md, são **12 agentes especializados, 31 skills**, e um workflow com fases travadas que força seu agente a **entender antes de construir**.
+Esse harness instala um sistema de desenvolvimento completo no seu projeto — nao e so um arquivo CLAUDE.md, sao **12 agentes especializados, 31 skills**, e um workflow com fases travadas que forca seu agente a **entender antes de construir**.
 
 <br>
 
-| | O que resolve | Como |
-|---|---|---|
-| 📋 | **Planos orientados a specs** | PMs e devs revisam o mesmo artefato de plano antes de qualquer código ser escrito |
-| 🔄 | **Contexto que se auto-atualiza** | Atualiza automaticamente toda vez que uma feature é entregue — docs nunca ficam defasados |
-| ⚡ | **Execução autônoma** | Sobrevive à compactação de contexto — roda por horas, não minutos |
-| 🧬 | **Pesquisa de arquitetura** | Estuda codebases reais antes de tomar decisões de design |
-| 🧭 | **Roteamento inteligente de contexto** | Carrega só o que é relevante — não toda sua base de conhecimento toda vez |
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>📋</h1>
+<strong>Planos orientados a specs</strong><br><br>
+<sub>PMs e devs revisam o mesmo artefato de plano antes de qualquer codigo ser escrito</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Contexto que se auto-atualiza</strong><br><br>
+<sub>Atualiza automaticamente toda vez que uma feature e entregue — docs nunca ficam defasados</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<strong>Execucao autonoma</strong><br><br>
+<sub>Sobrevive a compactacao de contexto — roda por horas, nao minutos</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🧬</h1>
+<strong>Pesquisa de arquitetura</strong><br><br>
+<sub>Estuda codebases reais antes de tomar decisoes de design</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🧭</h1>
+<strong>Roteamento inteligente de contexto</strong><br><br>
+<sub>Carrega so o que e relevante — nao toda sua base de conhecimento toda vez</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -230,8 +298,8 @@ flowchart TD
     T["✅ tester → reviewer → git-manager"]
     U["🧠 UPDATE PROCESS\nCapturar aprendizados"]
 
-    R -->|"você diz 'go'"| I
-    I -->|"você diz 'go'"| P
+    R -->|"voce diz 'go'"| I
+    I -->|"voce diz 'go'"| P
     P -->|"ENTER EXECUTE MODE"| E
     E --> T
     E -->|"recomendado"| U
@@ -244,157 +312,293 @@ flowchart TD
     style U fill:#00695C,stroke:#004D40,color:#FFFFFF
 ```
 
-Toda transição exige sua **aprovação explícita**. Nada avança automaticamente. Você mantém o controle.
+Toda transicao exige sua **aprovacao explicita**. Nada avanca automaticamente. Voce mantem o controle.
+
+---
+
+## A Revolucao do Vibe Coding
+
+<div align="center">
+<h3><em>"A linguagem de programacao mais quente do momento e o ingles."</em></h3>
+<strong>— Andrej Karpathy</strong>
+</div>
+
+<br>
+
+**O vibe coding mudou quem pode construir software. O desenvolvimento orientado a specs muda o que eles conseguem entregar.**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<h3>63%</h3>
+<sub>dos usuarios de vibe coding <strong>NAO</strong> sao desenvolvedores</sub>
+</td>
+<td align="center" width="50%">
+<h3>16.2M</h3>
+<sub>citizen developers no mundo<br>(38% de crescimento ano a ano)</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<h3>$4.7B</h3>
+<sub>mercado de vibe coding<br>crescendo 38% ao ano</sub>
+</td>
+<td align="center" width="50%">
+<h3>25%</h3>
+<sub>das startups do YC W25 tinham 95%+ de codigo gerado por IA</sub>
+</td>
+</tr>
+</table>
+
+A maioria das ferramentas te ajuda a comecar um projeto. Esse harness te ajuda a **terminar** — com planos que seu time pode revisar, contexto que nunca fica defasado, e sistemas de seguranca que pegam erros antes de irem pra producao.
+
+---
+
+## Pra Quem E Isso?
+
+<div align="center">
+<h3><em>"O que importa nao e quem digitou. E o que foi entregue."</em></h3>
+<strong>— Garry Tan, YC</strong>
+</div>
+
+<br>
+
+Seja voce alguem que acabou de descobrir o vibe coding ou um staff engineer entregando sistemas em producao — esse harness se adapta ao seu workflow.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧑‍💼</h1>
+<strong>CEO / Fundador</strong><br><br>
+<em>"Me construa um SaaS com auth, billing e uma landing page"</em><br><br>
+O agente pesquisa sua stack, escreve um plano de arquitetura que voce pode revisar, implementa com testes, e captura cada decisao pro seu co-fundador tecnico auditar depois.
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>Product Manager</strong><br><br>
+<em>"Crie um dashboard mostrando MRR, churn e metricas de crescimento"</em><br><br>
+Ele gera uma spec estilo PRD, pega sua aprovacao antes de escrever codigo, implementa conforme a spec, e arquiva o plano como historico pesquisavel do projeto.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎨</h1>
+<strong>Designer</strong><br><br>
+<em>"Reproduza esse screenshot do Figma pixel-perfect"</em><br><br>
+O agente design-aware analisa seu mockup, implementa componente por componente com seus design tokens, e dispara checagens de comparacao visual.
+</td>
+<td width="50%" valign="top">
+<h1>⚙️</h1>
+<strong>Engenheiro</strong><br><br>
+<em>"Refatore o modulo de auth pra suportar RBAC com zero downtime"</em><br><br>
+Ele pesquisa seu codigo de auth atual e como outros codebases resolveram RBAC, escreve um plano de migracao com analise de blast radius, implementa com seguranca e notas de rollback.
+</td>
+</tr>
+</table>
+
+---
+
+## Visao Geral
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🤖</h1>
+<h3>12</h3>
+<strong>Agentes Especializados</strong><br>
+<sub>Especialistas de dominio que controlam cada fase do desenvolvimento</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>32</h3>
+<strong>Skills Auto-Descobertas</strong><br>
+<sub>Capacidades reutilizaveis ativadas por match de keywords</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🪝</h1>
+<h3>7</h3>
+<strong>Hooks de Ciclo de Vida</strong><br>
+<sub>Guardrails pre/pos execucao e injecao de contexto</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>📜</h1>
+<h3>6</h3>
+<strong>Protocolos de Desenvolvimento</strong><br>
+<sub>Regras de workflow compartilhadas entre todas as ferramentas</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🛡️</h1>
+<h3>5</h3>
+<strong>Sistemas de Seguranca</strong><br>
+<sub>Travamento de fase, blast radius, privacidade, deteccao de vazamentos</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔧</h1>
+<h3>7</h3>
+<strong>Ferramentas Suportadas</strong><br>
+<sub>Claude Code, Codex, Cursor, Windsurf, Antigravity, OpenCode, Copilot</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🌍</h1>
+<h3>6</h3>
+<strong>Idiomas</strong><br>
+<sub>EN · 中文 · 日本語 · 한국어 · Tiếng Việt · Portugues</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>30s</h3>
+<strong>Tempo de Instalacao</strong><br>
+<sub>Um comando curl + auto-setup faz o resto</sub>
+</td>
+</tr>
+</table>
 
 ---
 
 ## 💎 Por Que Times Usam Isso
 
-> A maioria dos harnesses te dá um CLAUDE.md e instruções. Esse te dá um **sistema de desenvolvimento autônomo** que acumula inteligência ao longo do tempo.
+> A maioria dos harnesses te da um CLAUDE.md e instrucoes. Esse te da um **sistema de desenvolvimento autonomo** que acumula inteligencia ao longo do tempo.
 
 <br>
 
-### 📋 Desenvolvimento Orientado a Specs — Não a Vibes
+### 📋 Desenvolvimento Orientado a Specs — Nao a Vibes
 
-Cada feature recebe um **plano escrito com análise de blast radius** antes de uma única linha de código ser escrita.
+Cada feature recebe um **plano escrito com analise de blast radius** antes de uma unica linha de codigo ser escrita.
 
-> 💡 Gera PRDs automaticamente, gerencia backlogs, organiza grupos de features. Funciona tanto pra devs quanto pra product managers — seu agente planeja como um engenheiro sênior, não como um estagiário.
+> 💡 Gera PRDs automaticamente, gerencia backlogs, organiza grupos de features. Funciona tanto pra devs quanto pra product managers — seu agente planeja como um engenheiro senior, nao como um estagiario.
 
 **O que tem em cada plano:**
 
-| Seção | Propósito |
+| Secao | Proposito |
 |---|---|
-| 📍 **Touchpoints** | Cada arquivo que será criado ou modificado, listado antecipadamente |
-| 📜 **Contratos públicos** | Quais APIs ou interfaces mudam |
+| 📍 **Touchpoints** | Cada arquivo que sera criado ou modificado, listado antecipadamente |
+| 📜 **Contratos publicos** | Quais APIs ou interfaces mudam |
 | 💥 **Blast radius** | O que pode quebrar, quais testes rodar, o que ficar de olho |
-| ✅ **Evidência de verificação** | Como provar que a implementação está correta |
+| ✅ **Evidencia de verificacao** | Como provar que a implementacao esta correta |
 | 🔄 **Handoff de retomada** | Contexto suficiente pra qualquer agente retomar no meio do plano |
 
 <br>
 
-### 🔄 Execução Autônoma Multi-Fase — Horas de Trabalho Hands-Free
+### 🔄 Execucao Autonoma Multi-Fase — Horas de Trabalho Hands-Free
 
 Para tarefas grandes, o agente roda um **loop iterativo por fases**:
 
 ```
-🔍 pesquisa → ⚡ executa → ✅ valida → 📄 relatório → 🔄 repete
+🔍 pesquisa → ⚡ executa → ✅ valida → 📄 relatorio → 🔄 repete
 ```
 
-> 💡 Ele se auto-recupera quando trava, faz auto-reflexão pra melhorar a abordagem, e escreve relatórios de progresso duráveis em disco. **Compactação de contexto não mata ele** — todo estado vive em arquivos, não em memória.
+> 💡 Ele se auto-recupera quando trava, faz auto-reflexao pra melhorar a abordagem, e escreve relatorios de progresso duraveis em disco. **Compactacao de contexto nao mata ele** — todo estado vive em arquivos, nao em memoria.
 
-Saia pra tomar um café e quando voltar, o trabalho já tá pronto.
+Saia pra tomar um cafe e quando voltar, o trabalho ja ta pronto.
 
 <br>
 
-### 🧬 Pesquisa de Arquitetura Automática — Aprenda com Qualquer Codebase
+### 🧬 Pesquisa de Arquitetura Automatica — Aprenda com Qualquer Codebase
 
-O agente não só lê seu código — ele **estuda outros repositórios** pra aprender como resolveram problemas similares (`vc-xia`).
+O agente nao so le seu codigo — ele **estuda outros repositorios** pra aprender como resolveram problemas similares (`vc-xia`).
 
-> 💡 Ele pesquisa, compara abordagens e adapta os melhores padrões pro seu codebase. Decisões de arquitetura são informadas por implementações do mundo real, não por best practices alucinadas.
+> 💡 Ele pesquisa, compara abordagens e adapta os melhores padroes pro seu codebase. Decisoes de arquitetura sao informadas por implementacoes do mundo real, nao por best practices alucinadas.
 
 <br>
 
 ### 🧭 Roteamento Inteligente e Persistente de Contexto — Sempre o Contexto Certo
 
-O contexto não é um arquivo gigante. Ele é organizado em **domínios de conhecimento auto-roteados**:
+O contexto nao e um arquivo gigante. Ele e organizado em **dominios de conhecimento auto-roteados**:
 
 ```
 process/context/
-├── all-context.md              # 🧭 Router raiz — lê sua tarefa, carrega o que é relevante
+├── all-context.md              # 🧭 Router raiz — le sua tarefa, carrega o que e relevante
 ├── tests/
 │   └── all-tests.md            # 🧪 Test runners, comandos, debugging
 ├── container/
 │   └── all-container.md        # 🐳 Docker, deployment, infra
 ├── uxui/
-│   └── all-uxui.md             # 🎨 Componentes, design tokens, padrões
+│   └── all-uxui.md             # 🎨 Componentes, design tokens, padroes
 └── {seu-dominio}/
-    └── all-{dominio}.md        # 📚 Qualquer domínio com 3+ docs duráveis
+    └── all-{dominio}.md        # 📚 Qualquer dominio com 3+ docs duraveis
 ```
 
-> 💡 Quando o agente trabalha em billing, ele carrega contexto de billing — não os docs inteiros do seu codebase. O contexto **se auto-atualiza toda vez que você completa uma feature**, então nunca fica defasado.
+> 💡 Quando o agente trabalha em billing, ele carrega contexto de billing — nao os docs inteiros do seu codebase. O contexto **se auto-atualiza toda vez que voce completa uma feature**, entao nunca fica defasado.
 
 <br>
 
-### 🧠 Base de Conhecimento que Se Auto-Aprimora — Fica Mais Inteligente Conforme Você Entrega
+### 🧠 Base de Conhecimento que Se Auto-Aprimora — Fica Mais Inteligente Conforme Voce Entrega
 
 Cada feature completada alimenta aprendizados de volta no sistema de contexto.
 
-> 💡 Descobertas de pesquisa, decisões de arquitetura, insights de debugging e padrões de código são **capturados e indexados automaticamente**. Sua feature número 100 se beneficia de tudo que foi aprendido nas 99 anteriores. O conhecimento acumula — não reseta.
+> 💡 Descobertas de pesquisa, decisoes de arquitetura, insights de debugging e padroes de codigo sao **capturados e indexados automaticamente**. Sua feature numero 100 se beneficia de tudo que foi aprendido nas 99 anteriores. O conhecimento acumula — nao reseta.
+
+---
+
+## Como Se Compara
+
+| Funcionalidade | vibecode-pro-max-kit | Superpowers | GSD | gstack |
+|---------|---------------------|-------------|-----|--------|
+| Ciclo de vida orientado a specs | RIPER-5 completo (pesquisa → plano → executa → verifica) | Workflows obrigatorios | Correcao de context-rot | Parcial |
+| Seguranca travada por fase | Restricoes de ferramentas por modo (pesquisa read-only, innovate sem escrita) | Restricoes baseadas em skills | Separacao de fases | Nenhuma |
+| Suporte multi-ferramenta | 7 ferramentas via AGENTS.md + nativo | Plugin Claude Code | 14 runtimes | 1 ferramenta |
+| Contexto que se auto-aprimora | Context groups roteados por dominio, atualiza apos cada feature | Memoria de plugin | Estado persistido em disco | Manual |
+| Colaboracao em time | Specs, planos e artefatos de revisao compartilhados | Solo | Solo | Solo |
+| Sistema de skills | 32 auto-descobertas, match por keyword em cada prompt | 86 skills composiveis | Meta-prompting | 23 role tools |
+| Programas multi-fase | Planos guarda-chuva + loop de execucao por fase com checks de regressao | Tarefa unica | Tarefa unica | Tarefa unica |
+| Pipeline de qualidade | Cadeia de 6 passos (code-review → test → simplify → security → audit → commit) | Qualidade por skill | Sem cadeia automatica | Sem cadeia automatica |
+| Instalacao | Install de 30s via `curl` + auto-setup | Marketplace de plugins | npx one-liner | git clone |
+| Roteamento de contexto | Tabela de roteamento por dominio com packs de contexto agrupados | Contexto flat de skill | Contexto flat | Arquivo unico |
+
+> **Sobre amplitude de runtimes:** GSD suporta 14 runtimes. Nos suportamos 7 em profundidade — com harnesses completos de agentes, descoberta de skills e hooks de ciclo de vida em cada plataforma. Amplitude vs. profundidade: a escolha e sua.
 
 ---
 
 ## ⚡ O Que Torna Isso Diferente
 
-A maioria dos harnesses de agente te dá um CLAUDE.md grande e algumas instruções. Veja o que esse aqui realmente faz:
+A maioria dos harnesses de agente te da um CLAUDE.md grande e algumas instrucoes. Veja o que esse aqui realmente faz:
 
 <br>
 
-### 🔒 Restrições de Ferramentas Travadas por Fase
-
-Seu agente literalmente **não consegue** escrever código durante a pesquisa.
-
-> Cada fase tem restrições de ferramentas aplicadas no nível do agente — RESEARCH é somente leitura, INNOVATE não tem acesso ao Bash de jeito nenhum, PLAN só pode escrever em diretórios `process/`. Não são instruções que podem ser ignoradas — é **remoção real de capacidade**.
-
-<br>
-
-### 🎯 Auto-Roteamento Inteligente com Detecção de Intenção
-
-O sistema detecta sua intenção a partir de linguagem natural e roteia pro pipeline correto automaticamente.
-
-| Você diz | Sistema detecta | Roteia para |
-|---|---|---|
-| "build webhook support" | Feature request | 🔍 research → 💡 innovate → 📋 plan → ⚡ execute |
-| "login is broken" | Bug | 🐛 debugger → ⚡ execute |
-| "clean up the auth module" | Refactor | ✨ code-simplifier (ou pipeline completo se for comportamental) |
-| "add rate limiting" | Feature (fast) | ⏩ fast-mode (pipeline comprimido) |
-
-> 💡 Uma ordem de precedência de 6 níveis resolve conflitos quando múltiplas intenções batem. No máximo uma pergunta de esclarecimento — nunca um interrogatório de 20 perguntas.
-
-<br>
-
-### 🔍 Descoberta Automática de Skills (Step 0)
-
-Antes de rotear qualquer request, o orquestrador escaneia **31 skills** e faz match por keywords.
-
-> Diga "add webhook support" e ele automaticamente traz `vc-security` e `vc-scenario` junto com o workflow de feature. Você não precisa saber quais skills existem — **elas te encontram**.
-
-<br>
-
-### 💾 Sobrevive à Compactação da Context Window
-
-Quando sua context window enche, **nada é perdido**.
-
-```
-Plans          →  process/general-plans/active/
-Reports        →  process/features/{feature}/reports/
-Context docs   →  process/context/{domain}/all-{domain}.md
-Learnings      →  process/context/all-context.md
-Approval state →  re-injected by session-init hook after compaction
-```
-
-> 💡 O hook session-init detecta eventos de compactação e re-injeta o estado do approval gate — assim o agente não pode silenciosamente pular uma aprovação que já recebeu.
-
-<br>
-
-### 🛡️ Auto-Policiamento com Detecção de Violação
-
-Todo agente tem um protocolo de interrupção embutido.
-
-> Quando ele detecta que está prestes a cruzar uma fronteira de fase, ele para sozinho: *"PHASE JUMPING PREVENTED: [atividade] pertence ao EXECUTE mas estou no modo RESEARCH."* Isso é uma **guard estrutural contra alucinação**.
-
-<br>
-
-### 🔄 Funciona no Claude Code e no Codex
-
-Planos, contexto e skills são artefatos compartilhados.
-
-```
-.claude/agents/        ←→  .codex/agents/         # espelhados
-.claude/skills/        ←→  .agents/skills          # symlink
-process/               ←→  compartilhado           # planos, contexto, features
-```
-
-> 💡 Comece no Claude Code, continue no Codex. Mesmos agentes, mesmas skills, mesmo workflow.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔒</h1>
+<strong>Restricoes de Ferramentas Travadas por Fase</strong><br><br>
+Seu agente literalmente <strong>nao consegue</strong> escrever codigo durante a pesquisa. RESEARCH e read-only, INNOVATE nao tem Bash, PLAN so pode escrever em <code>process/</code>. <strong>Remocao real de capacidade</strong>, nao sugestoes.
+</td>
+<td width="50%" valign="top">
+<h1>🎯</h1>
+<strong>Auto-Roteamento Inteligente</strong><br><br>
+Detecta sua intencao a partir de linguagem natural. "build webhook support" → pipeline completo. "login is broken" → debugger. Precedencia de 6 niveis, no maximo uma pergunta de esclarecimento.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔍</h1>
+<strong>Descoberta Automatica de Skills</strong><br><br>
+Antes de rotear qualquer request, escaneia <strong>32 skills</strong> e faz match por keywords. Diga "add webhook support" e <code>vc-security</code> + <code>vc-scenario</code> aparecem automaticamente.
+</td>
+<td width="50%" valign="top">
+<h1>💾</h1>
+<strong>Sobrevive a Compactacao de Contexto</strong><br><br>
+Planos, relatorios, docs de contexto e aprendizados vivem em disco. O hook session-init re-injeta approval gates apos compactacao. <strong>Nada e perdido.</strong>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🛡️</h1>
+<strong>Auto-Policiamento com Deteccao de Violacao</strong><br><br>
+Quando o agente esta prestes a cruzar uma fronteira de fase, ele para sozinho: <em>"PHASE JUMPING PREVENTED"</em>. Uma <strong>guard estrutural contra alucinacao</strong>.
+</td>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Funciona em 7 Ferramentas de AI Coding</strong><br><br>
+Dois padroes abertos — <code>AGENTS.md</code> e <code>SKILL.md</code> — significam <strong>zero adapters, zero plugins, zero configuracao.</strong> Comece no Claude Code, mude pro Cursor, continue no Codex.
+</td>
+</tr>
+</table>
 
 ---
 
@@ -403,198 +607,182 @@ process/               ←→  compartilhado           # planos, contexto, featu
 ```
 Seu request
   → Step 0: Descoberta de Skills (match de keywords → traz skills relevantes)
-  → Detecção de Intenção (feature / bug / pergunta / refactor / UI)
+  → Deteccao de Intencao (feature / bug / pergunta / refactor / UI)
   → Roteia pro agente certo
-  → Execução travada por fase com transições explícitas
+  → Execucao travada por fase com transicoes explicitas
 ```
 
-O orquestrador **nunca faz o trabalho ele mesmo** — ele roteia, monitora e gerencia transições.
+O orquestrador **nunca faz o trabalho ele mesmo** — ele roteia, monitora e gerencia transicoes.
 
 <br>
 
 ### 📊 O Workflow
 
-| Fase | O que acontece | Você diz |
+| Fase | O que acontece | Voce diz |
 |-------|-------------|---------|
-| 🔍 **RESEARCH** | Coleta de fatos somente leitura — codebase + web | *(automático em feature requests)* |
+| 🔍 **RESEARCH** | Coleta de fatos somente leitura — codebase + web | *(automatico em feature requests)* |
 | 💡 **INNOVATE** | Explora 2-3 abordagens com trade-offs | `go` |
-| 📋 **PLAN** | Escreve uma spec detalhada que você pode revisar | `go` |
+| 📋 **PLAN** | Escreve uma spec detalhada que voce pode revisar | `go` |
 | ⚡ **EXECUTE** | Implementa exatamente o que foi planejado | `ENTER EXECUTE MODE` |
-| 🧠 **UPDATE PROCESS** | Captura aprendizados, atualiza contexto, arquiva plano | *(recomendado após trabalho não-trivial)* |
+| 🧠 **UPDATE PROCESS** | Captura aprendizados, atualiza contexto, arquiva plano | *(recomendado apos trabalho nao-trivial)* |
 
-> 💡 **Atalhos:** `ENTER FAST MODE - [tarefa]` comprime RESEARCH+INNOVATE+PLAN em uma passada — ainda pausa antes do EXECUTE. Correções triviais (arquivo único, <15 linhas, sem mudanças de schema/auth) vão direto pro execute.
+> 💡 **Atalhos:** `ENTER FAST MODE - [tarefa]` comprime RESEARCH+INNOVATE+PLAN em uma passada — ainda pausa antes do EXECUTE. Correcoes triviais (arquivo unico, <15 linhas, sem mudancas de schema/auth) vao direto pro execute.
 
 <br>
 
-### 💻 Sessão Típica
+### 💻 Sessao Tipica
 
 ```
 # 🆕 Feature request
-Você: "add webhook support to the API"
+Voce: "add webhook support to the API"
 → Descoberta de skills traz: vc-scenario, vc-security
-→ research-agent coleta contexto (somente leitura, não mexe no código)
-→ Você diz "go" → innovate-agent explora abordagens
-→ Você diz "go" → plan-agent escreve spec com blast radius
-→ Você revisa o plano, diz "ENTER EXECUTE MODE"
+→ research-agent coleta contexto (somente leitura, nao mexe no codigo)
+→ Voce diz "go" → innovate-agent explora abordagens
+→ Voce diz "go" → plan-agent escreve spec com blast radius
+→ Voce revisa o plano, diz "ENTER EXECUTE MODE"
 → execute-agent implementa → self-review → tester → code-reviewer → git-manager
-→ Pacote de closeout: o que mudou, o que foi verificado, próximo passo recomendado
+→ Pacote de closeout: o que mudou, o que foi verificado, proximo passo recomendado
 ```
 
 ```
 # 🐛 Bug fix
-Você: "login redirect is broken"
-→ Roteia pro vc-debugger → coleta de evidências → hipóteses concorrentes
+Voce: "login redirect is broken"
+→ Roteia pro vc-debugger → coleta de evidencias → hipoteses concorrentes
 → Causa raiz identificada com cadeia de provas
-→ execute-agent implementa a correção → pipeline de qualidade
+→ execute-agent implementa a correcao → pipeline de qualidade
 ```
 
 ```
 # ⏩ Fast mode
-Você: "ENTER FAST MODE - add rate limiting middleware"
+Voce: "ENTER FAST MODE - add rate limiting middleware"
 → Research+innovate+plan comprimidos em uma passada
-→ Pausa de segurança obrigatória → você revisa → "ENTER EXECUTE MODE"
+→ Pausa de seguranca obrigatoria → voce revisa → "ENTER EXECUTE MODE"
 ```
 
 ```
 # 🏗️ Programa grande
-Você: "build a full testing platform"
+Voce: "build a full testing platform"
 → Cria plano guarda-chuva + planos por fase numa feature folder
-→ Cada fase: re-pesquisa → aprova → executa → valida → relatório durável
-→ Progresso sobrevive compactação de contexto — relatórios duráveis em disco
+→ Cada fase: re-pesquisa → aprova → executa → valida → relatorio duravel
+→ Progresso sobrevive compactacao de contexto — relatorios duraveis em disco
 ```
 
 ```
-# 🔄 Otimização autônoma
-Você: "improve test coverage to 80% using vc-autoresearch"
-→ Agente itera: faz mudança → commit → mede → mantém/reverte
-→ Detecção de travamento após 5 descartes consecutivos → muda de estratégia
+# 🔄 Otimizacao autonoma
+Voce: "improve test coverage to 80% using vc-autoresearch"
+→ Agente itera: faz mudanca → commit → mede → mantem/reverte
+→ Deteccao de travamento apos 5 descartes consecutivos → muda de estrategia
 → Trilha de auditoria completa em TSV
 ```
 
 ---
 
-## 🛡️ Sistemas de Segurança Integrados
+## 🛡️ Sistemas de Seguranca Integrados
 
-Esses não são apenas guidelines — são **enforcement estrutural** embutido em cada agente.
+Esses nao sao apenas guidelines — sao **enforcement estrutural** embutido em cada agente.
 
-<br>
-
-> ⏸️ **Check-In de 50% no Meio da Implementação**
->
-> Aproximadamente na metade da execução, o agente **pausa** pra reportar progresso, listar itens completados e restantes, e pergunta: *"Continuar com a abordagem atual ou pausar e voltar pro PLAN?"*
-
-> 🚫 **Nunca Desvia Silenciosamente**
->
-> Se o execute-agent encontra um problema que exige desvio do plano, ele **para imediatamente**, explica o problema e volta pro modo PLAN. Sem improviso silencioso.
-
-> 🔙 **Protocolo de Abandono de Abordagem**
->
-> Quando uma abordagem falha, o agente avalia componentes reutilizáveis, documenta lições antes de deletar, cria um resumo de abandono e volta pro PLAN. Conhecimento é preservado, não perdido.
-
-> 🔐 **Hook de Guardrails de Privacidade**
->
-> O agente é **bloqueado de ler** `.env`, credenciais, chaves SSH e arquivos `.pem`. Precisa pedir aprovação explícita. Design fail-open garante que um hook quebrado nunca bloqueia seu workflow.
-
-> ⚠️ **Pacotes de Evidência para Alto Risco**
->
-> Para mudanças que tocam auth, billing, migrações de schema ou APIs públicas — o sistema exige um pacote de evidência formal antes de considerar o trabalho "feito." Auto-stop se a evidência estiver faltando.
-
-> 📊 **Scoring de Sinal de Drift**
->
-> Após a execução, o sistema pontua a urgência de atualizações de processo: **LOW** (leve), **MEDIUM** (mudanças significativas), **HIGH** (arquivos de harness/protocolo tocados). Mudanças pequenas recebem um lembrete leve. Mudanças de protocolo recebem um push forte.
-
----
-
-## 🔍 Inteligência Pré-Implementação
-
-Antes de uma única linha de código ser escrita, o sistema consegue capturar problemas através de análises especializadas:
-
-<br>
-
-### 🎭 Debate Pré-Implementação com 5 Personas
-
-**Skill:** `vc-predict`
-
-| Persona | Foco |
-|---|---|
-| 🏗️ **Arquiteto** | Integridade estrutural, extensibilidade, tech debt |
-| 🔐 **Segurança** | Superfícies de ataque, fluxos de auth, exposição de dados |
-| ⚡ **Performance** | Latência, memória, gargalos de escalabilidade |
-| 🎨 **UX** | Impacto no usuário, edge cases, acessibilidade |
-| 😈 **Advogado do Diabo** | *"Por que não fazer nada?"* — questiona a premissa |
-
-> 💡 Eles identificam concordâncias, resolvem conflitos através de ponderação de trade-offs e produzem um veredito **GO / CAUTION / STOP**.
-
-<br>
-
-### 🎲 Gerador de Edge Cases em 12 Dimensões
-
-**Skill:** `vc-scenario`
-
-> Decompõe qualquer feature em **12 dimensões** — gera 3-5 cenários por dimensão, ranqueados por severidade. Os outputs são diretamente utilizáveis como specs de teste.
-
-| | | | |
-|---|---|---|---|
-| 👤 Tipos de Usuário | 📥 Extremos de Input | ⏱️ Timing | 📈 Escala |
-| 🔄 Transições de Estado | 🌍 Ambiente | 💥 Cascatas de Erro | 🔑 Autorização |
-| 💾 Integridade de Dados | 🔌 Integração | 📋 Compliance | 💰 Lógica de Negócio |
-
-<br>
-
-### 🔐 Auditoria de Segurança STRIDE + OWASP
-
-**Skill:** `vc-security`
-
-> Auditoria de segurança com dupla metodologia combinando **modelagem de ameaças STRIDE** com **OWASP Top 10**. Inclui auditoria de dependências, detecção de secrets e um **modo auto-fix** que ordena achados por severidade e corrige Critical primeiro — com guards de regressão em cada passo.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>⏸️</h1>
+<strong>Check-In de 50% no Meio da Implementacao</strong><br><br>
+Aproximadamente na metade da execucao, o agente <strong>pausa</strong> pra reportar progresso, listar itens completados e restantes, e pergunta: <em>"Continuar com a abordagem atual ou pausar e voltar pro PLAN?"</em>
+</td>
+<td width="50%" valign="top">
+<h1>🚫</h1>
+<strong>Nunca Desvia Silenciosamente</strong><br><br>
+Se o execute-agent encontra um problema que exige desvio do plano, ele <strong>para imediatamente</strong>, explica o problema e volta pro modo PLAN. Sem improviso silencioso.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔙</h1>
+<strong>Protocolo de Abandono de Abordagem</strong><br><br>
+Quando uma abordagem falha, o agente avalia componentes reutilizaveis, documenta licoes antes de deletar, cria um resumo de abandono e volta pro PLAN.
+</td>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>Hook de Guardrails de Privacidade</strong><br><br>
+O agente e <strong>bloqueado de ler</strong> <code>.env</code>, credenciais, chaves SSH e arquivos <code>.pem</code>. Precisa pedir aprovacao explicita.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>⚠️</h1>
+<strong>Pacotes de Evidencia para Alto Risco</strong><br><br>
+Para mudancas que tocam auth, billing, migracoes de schema ou APIs publicas — o sistema exige um pacote de evidencia formal antes de considerar o trabalho "feito."
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>Scoring de Sinal de Drift</strong><br><br>
+Apos a execucao, o sistema pontua a urgencia: <strong>LOW</strong> (leve), <strong>MEDIUM</strong> (mudancas significativas), <strong>HIGH</strong> (arquivos de harness/protocolo tocados).
+</td>
+</tr>
+</table>
 
 ---
 
-## 🤖 Capacidades de Agente Autônomo
+## 🔍 Inteligencia Pre-Implementacao
+
+Antes de uma unica linha de codigo ser escrita, o sistema consegue capturar problemas atraves de analises especializadas:
 
 <br>
 
-### 🔄 Otimização Autônoma de Métricas
-
-**Skill:** `vc-autoresearch`
-
-Defina um objetivo, vá embora. O agente roda um **loop de otimização iterativo com backup em git** sobre qualquer métrica mensurável:
-
-> 📈 Cobertura de testes · 📦 Bundle size · ⚠️ Erros de ESLint · 🚀 Score do Lighthouse
-
-Cada iteração faz **UMA mudança atômica** → commit → mede → mantém ou reverte.
-
-> 💡 Detecção de travamento dispara mudanças de estratégia após 5 descartes consecutivos. Trilha de auditoria completa em TSV.
-
-<br>
-
-### 👥 Times de Agentes em Paralelo
-
-**Skill:** `vc-team`
-
-Múltiplos agentes independentes trabalhando **simultaneamente** — não sequencialmente:
-
-| Template | Como funciona |
-|---|---|
-| 🔍 **Research** | N ângulos explorados em paralelo |
-| ⚡ **Execute** | Desenvolvedores em paralelo com **isolamento via git worktree** (zero conflitos de arquivo) |
-| 🔎 **Review** | Revisores independentes produzindo achados deduplicados, ranqueados por severidade |
-| 🐛 **Debug** | Hipóteses concorrentes testadas de forma adversarial — debuggers tentando refutar uns aos outros |
-
-<br>
-
-### 🔬 Debugging com Evidência Antes da Hipótese
-
-**Agent:** `vc-debugger`
-
-> O debugger coleta evidências primeiro → forma 2-3 hipóteses concorrentes → testa sistematicamente cada uma → documenta o caminho de eliminação → declara a causa raiz com uma cadeia de evidências.
-
-Ele **nunca chuta — ele prova.** E não implementa correções — ele entrega um "fix boundary" de volta pro execute-agent.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>Debate Pre-Implementacao com 5 Personas</strong><br><br>
+<code>vc-predict</code> — Arquiteto, Seguranca, Performance, UX e Advogado do Diabo debatem seu plano. Produz um veredito <strong>GO / CAUTION / STOP</strong> antes de voce escrever uma linha de codigo.
+</td>
+<td width="50%" valign="top">
+<h1>🎲</h1>
+<strong>Gerador de Edge Cases em 12 Dimensoes</strong><br><br>
+<code>vc-scenario</code> — Decompoe qualquer feature em 12 dimensoes (tipos de usuario, extremos de input, timing, escala, estado, ambiente, erros, auth, dados, integracoes, compliance, logica de negocio). Outputs utilizaveis como specs de teste.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>Auditoria de Seguranca STRIDE + OWASP</strong><br><br>
+<code>vc-security</code> — Auditoria de seguranca com dupla metodologia, auditoria de dependencias, deteccao de secrets, e <strong>modo auto-fix</strong> que ordena por severidade e corrige Critical primeiro com guards de regressao.
+</td>
+</tr>
+</table>
 
 ---
 
-## ✅ Pipeline de Qualidade — Integrado na Execução
+## 🤖 Capacidades de Agente Autonomo
 
-O execute-agent não só escreve código e diz que terminou. Ele encadeia automaticamente um **pipeline de qualidade**:
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Otimizacao Autonoma de Metricas</strong><br><br>
+<code>vc-autoresearch</code> — Defina um objetivo, va embora. Loop iterativo com backup em git: faz UMA mudanca atomica → commit → mede → mantem ou reverte. Deteccao de travamento apos 5 descartes consecutivos dispara mudancas de estrategia.
+</td>
+<td width="50%" valign="top">
+<h1>👥</h1>
+<strong>Times de Agentes em Paralelo</strong><br><br>
+<code>vc-team</code> — Multiplos agentes trabalhando <strong>simultaneamente</strong> com isolamento via git worktree. Pesquisa em paralelo, executa em paralelo, revisa em paralelo, debugga de forma adversarial.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔬</h1>
+<strong>Debugging com Evidencia Antes da Hipotese</strong><br><br>
+<code>vc-debugger</code> — Coleta evidencias primeiro → forma 2-3 hipoteses concorrentes → testa sistematicamente cada uma → documenta o caminho de eliminacao. <strong>Nunca chuta — prova.</strong>
+</td>
+</tr>
+</table>
+
+---
+
+## ✅ Pipeline de Qualidade — Integrado na Execucao
+
+O execute-agent nao so escreve codigo e diz que terminou. Ele encadeia automaticamente um **pipeline de qualidade**:
 
 <br>
 
@@ -602,11 +790,11 @@ O execute-agent não só escreve código e diz que terminou. Ele encadeia automa
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'lineColor': '#8888AA'}} }%%
 flowchart TD
     E["⚡ Execute-Agent\nImplementa o plano"]
-    SR["🔎 Self-Review\nVerificação linha a linha\ncontra o plano"]
-    T["🧪 Tester\nDiff-aware — só roda\ntestes afetados"]
-    CR["🔍 Code Reviewer\nScout de edge cases\n+ revisão adversarial"]
-    CS["✨ Code Simplifier\nRefatoração de clareza"]
-    GM["📦 Git Manager\nSplit lógico de commits\na partir de touched_files"]
+    SR["🔎 Self-Review\nVerificacao linha a linha\ncontra o plano"]
+    T["🧪 Tester\nDiff-aware — so roda\ntestes afetados"]
+    CR["🔍 Code Reviewer\nScout de edge cases\n+ revisao adversarial"]
+    CS["✨ Code Simplifier\nRefatoracao de clareza"]
+    GM["📦 Git Manager\nSplit logico de commits\na partir de touched_files"]
 
     E --> SR
     SR --> T
@@ -628,15 +816,15 @@ flowchart TD
 |---|---|
 | 🔎 **Self-review** | Verifica cada item do checklist contra o plano buscando desvios, documenta eles |
 | 🧪 **Tester** | Mapeia arquivos alterados para arquivos de teste, auto-escala pra suite completa quando >70% mapeado |
-| 🔍 **Code reviewer** | Dispara scout de edge cases ANTES da revisão, verifica queries N+1, paths de auth, vazamentos de dados |
-| ✨ **Simplifier** | Refatoração de clareza após revisão passar — sem mudanças de comportamento |
-| 📦 **Git manager** | Recebe lista de `touched_files`, divide em commits convencionais lógicos, recusa arquivos desconhecidos |
+| 🔍 **Code reviewer** | Dispara scout de edge cases ANTES da revisao, verifica queries N+1, paths de auth, vazamentos de dados |
+| ✨ **Simplifier** | Refatoracao de clareza apos revisao passar — sem mudancas de comportamento |
+| 📦 **Git manager** | Recebe lista de `touched_files`, divide em commits convencionais logicos, recusa arquivos desconhecidos |
 
 ---
 
-## 📋 O Ciclo de Vida do Plano — Orientado a Specs, Não a Vibes
+## 📋 O Ciclo de Vida do Plano — Orientado a Specs, Nao a Vibes
 
-Toda feature não-trivial segue um **ciclo de vida de plano** — uma spec escrita que é criada, revisada, executada e arquivada como histórico do projeto.
+Toda feature nao-trivial segue um **ciclo de vida de plano** — uma spec escrita que e criada, revisada, executada e arquivada como historico do projeto.
 
 <br>
 
@@ -645,16 +833,16 @@ Toda feature não-trivial segue um **ciclo de vida de plano** — uma spec escri
 flowchart TD
     A["🆕 Feature Request"]
     B["📝 Plano Criado\nem active/"]
-    C{"👀 Usuário Revisa\no Plano"}
+    C{"👀 Usuario Revisa\no Plano"}
     D["⚡ Executa Contra o Plano"]
     E["📦 Plano Arquivado\nem completed/"]
     F["🧠 Aprendizados Escritos\nem all-context.md"]
-    G["🔄 Próxima Feature\nComeça Mais Inteligente"]
+    G["🔄 Proxima Feature\nComeca Mais Inteligente"]
 
     A --> B
     B --> C
     C -->|"✅ Aprovado"| D
-    C -->|"✏️ Precisa de Mudanças"| B
+    C -->|"✏️ Precisa de Mudancas"| B
     D --> E
     E --> F
     F --> G
@@ -671,7 +859,7 @@ flowchart TD
 
 <br>
 
-> 💡 Daqui a seis meses, quando alguém perguntar *"por que construímos auth assim?"*, a resposta tá em `completed/`. Não perdida numa thread do Slack.
+> 💡 Daqui a seis meses, quando alguem perguntar *"por que construimos auth assim?"*, a resposta ta em `completed/`. Nao perdida numa thread do Slack.
 
 <br>
 
@@ -682,9 +870,9 @@ process/
 ├── general-plans/
 │   ├── active/                  # 📋 Planos sendo trabalhados atualmente
 │   │   └── webhooks_PLAN_28-05-26.md
-│   ├── completed/               # ✅ Planos arquivados (histórico pesquisável)
+│   ├── completed/               # ✅ Planos arquivados (historico pesquisavel)
 │   ├── backlog/                 # 📌 Trabalho adiado
-│   ├── reports/                 # 📄 Relatórios cross-cutting
+│   ├── reports/                 # 📄 Relatorios cross-cutting
 │   └── references/              # 📚 Outputs de pesquisa
 └── features/
     └── billing/                 # 🏷️ Escopo por feature (5+ artefatos)
@@ -697,9 +885,9 @@ process/
 
 ---
 
-## 🏗️ Programas de Fase — Projetos Grandes Que Não Desmoronam
+## 🏗️ Programas de Fase — Projetos Grandes Que Nao Desmoronam
 
-Features normais usam um plano. **Projetos grandes multi-fase** usam um programa de fases — um plano guarda-chuva mais planos individuais por fase, cada um com seu próprio gate de validação.
+Features normais usam um plano. **Projetos grandes multi-fase** usam um programa de fases — um plano guarda-chuva mais planos individuais por fase, cada um com seu proprio gate de validacao.
 
 <br>
 
@@ -714,25 +902,25 @@ flowchart TD
     R1["🔍 Re-Pesquisa"]
     E1["⚡ Executa"]
     V1["✅ Valida"]
-    RP1["📄 Relatório Durável"]
+    RP1["📄 Relatorio Duravel"]
 
     R2["🔍 Re-Pesquisa"]
     E2["⚡ Executa"]
     V2["✅ Valida"]
-    RP2["📄 Relatório Durável"]
+    RP2["📄 Relatorio Duravel"]
 
     UP --> P1
     UP --> P2
     UP --> P3
 
     P1 --> R1
-    R1 -->|"aprovação"| E1
+    R1 -->|"aprovacao"| E1
     E1 --> V1
     V1 --> RP1
-    RP1 -.->|"aprendizados alimentam\npróxima fase"| R2
+    RP1 -.->|"aprendizados alimentam\nproxima fase"| R2
 
     P2 --> R2
-    R2 -->|"aprovação"| E2
+    R2 -->|"aprovacao"| E2
     E2 --> V2
     V2 --> RP2
 
@@ -756,30 +944,30 @@ flowchart TD
 
 | | Funcionalidade | Por que importa |
 |---|---|---|
-| 🔄 | **Re-pesquisa a cada fase** | Verifica drift de código, lê relatórios mais recentes, atualiza premissas |
-| ✅ | **Gates de validação** | Fase não é `VERIFIED` até evidência provar. Status honesto: `PLANNED` → `CODE DONE` → `TESTING` → `VERIFIED` ou `BLOCKED` |
-| 📄 | **Relatórios duráveis** | Cada fase escreve resultados em disco. Progresso sobrevive compactação de contexto |
-| 🧠 | **Aprendizados alimentam o futuro** | Descobertas da Fase 1 atualizam o plano da Fase 2 antes da execução |
-| 🏗️ | **Fundação vs expansão** | Separa explicitamente "provar a arquitetura" de "implementar tudo" |
-| 🚧 | **Tratamento honesto de blockers** | Fases bloqueadas ficam `BLOCKED` com evidência. Sem forçar status verde |
+| 🔄 | **Re-pesquisa a cada fase** | Verifica drift de codigo, le relatorios mais recentes, atualiza premissas |
+| ✅ | **Gates de validacao** | Fase nao e `VERIFIED` ate evidencia provar. Status honesto: `PLANNED` → `CODE DONE` → `TESTING` → `VERIFIED` ou `BLOCKED` |
+| 📄 | **Relatorios duraveis** | Cada fase escreve resultados em disco. Progresso sobrevive compactacao de contexto |
+| 🧠 | **Aprendizados alimentam o futuro** | Descobertas da Fase 1 atualizam o plano da Fase 2 antes da execucao |
+| 🏗️ | **Fundacao vs expansao** | Separa explicitamente "provar a arquitetura" de "implementar tudo" |
+| 🚧 | **Tratamento honesto de blockers** | Fases bloqueadas ficam `BLOCKED` com evidencia. Sem forcar status verde |
 
 ---
 
-## 🧠 Context Groups — Conhecimento Organizado, Não Um Arquivo Gigante
+## 🧠 Context Groups — Conhecimento Organizado, Nao Um Arquivo Gigante
 
-O conhecimento do projeto é organizado em **context groups** — domínios de conhecimento duráveis, cada um com um router `all-{group}.md` que diz pros agentes o que ler e quando.
+O conhecimento do projeto e organizado em **context groups** — dominios de conhecimento duraveis, cada um com um router `all-{group}.md` que diz pros agentes o que ler e quando.
 
 <br>
 
 ```
 process/context/
-├── all-context.md              # 🧭 Router raiz — arquitetura, stack, padrões, convenções
+├── all-context.md              # 🧭 Router raiz — arquitetura, stack, padroes, convencoes
 ├── tests/
 │   └── all-tests.md            # 🧪 Test runners, comandos, procedimentos de debugging
 ├── container/
 │   └── all-container.md        # 🐳 Docker, deployment, procedimentos de infra
 ├── uxui/
-│   └── all-uxui.md             # 🎨 Componentes, design tokens, padrões
+│   └── all-uxui.md             # 🎨 Componentes, design tokens, padroes
 ├── infra/
 │   └── all-infra.md            # 🖥️ Worker nodes, provisionamento, DNS
 ├── skills/
@@ -787,43 +975,43 @@ process/context/
 ├── workflows/
 │   └── all-workflows.md        # 🔄 Runtime de workflows, deployment
 └── {seu-dominio}/
-    └── all-{dominio}.md        # 📚 Qualquer domínio de conhecimento com 3+ docs duráveis
+    └── all-{dominio}.md        # 📚 Qualquer dominio de conhecimento com 3+ docs duraveis
 ```
 
 <br>
 
 | | Como funciona |
 |---|---|
-| 🧭 **Padrão router** | Agentes leem só o que é relevante pra sua tarefa, não tudo |
-| 📏 **Auto-promoção** | Tópicos com 3+ docs ou 800+ linhas ganham seu próprio context group |
-| 🔄 **Docs vivos** | Atualizados pelo `update-process-agent` após cada feature não-trivial |
-| 🧪 **Auditável** | `vc-audit-context` verifica roteamento e consistência |
+| 🧭 **Padrao router** | Agentes leem so o que e relevante pra sua tarefa, nao tudo |
+| 📏 **Auto-promocao** | Topicos com 3+ docs ou 800+ linhas ganham seu proprio context group |
+| 🔄 **Docs vivos** | Atualizados pelo `update-process-agent` apos cada feature nao-trivial |
+| 🧪 **Auditavel** | `vc-audit-context` verifica roteamento e consistencia |
 
 ---
 
-## 📁 Feature Folders — Memória de Projeto Auto-Organizável
+## 📁 Feature Folders — Memoria de Projeto Auto-Organizavel
 
-Quando um tópico acumula 5+ artefatos, ele ganha sua própria **feature folder** — um container de ciclo de vida completo.
+Quando um topico acumula 5+ artefatos, ele ganha sua propria **feature folder** — um container de ciclo de vida completo.
 
 <br>
 
 ```
 process/features/{feature}/
 ├── active/       # 📋 Planos sendo trabalhados atualmente
-├── completed/    # ✅ Planos arquivados (histórico de decisões pesquisável)
+├── completed/    # ✅ Planos arquivados (historico de decisoes pesquisavel)
 ├── backlog/      # 📌 Trabalho adiado (agentes checam antes de duplicar)
-├── reports/      # 📄 Relatórios de execução, post-mortems, resultados de validação
-└── references/   # 📚 Outputs de pesquisa que informam decisões futuras
+├── reports/      # 📄 Relatorios de execucao, post-mortems, resultados de validacao
+└── references/   # 📚 Outputs de pesquisa que informam decisoes futuras
 ```
 
 <br>
 
 | | O que acontece |
 |---|---|
-| 🆕 | Trabalho novo começa em `active/` → relatórios acumulam → plano arquiva em `completed/` |
+| 🆕 | Trabalho novo comeca em `active/` → relatorios acumulam → plano arquiva em `completed/` |
 | 📌 | Trabalho adiado vai pro `backlog/` — agentes checam antes de criar planos duplicados |
-| 📦 | Promoção de feature acontece automaticamente quando artefatos gerais chegam em 5+ |
-| 🔍 | Cada feature tem histórico completo e auto-contido — planos, decisões, relatórios, pesquisa |
+| 📦 | Promocao de feature acontece automaticamente quando artefatos gerais chegam em 5+ |
+| 🔍 | Cada feature tem historico completo e auto-contido — planos, decisoes, relatorios, pesquisa |
 
 ---
 
@@ -842,12 +1030,12 @@ process/features/{feature}/
 
 | Agente | Papel |
 |-------|------|
-| 🔍 `vc-research-agent` | Pesquisa de codebase + web, somente leitura. Tracking de contradições embutido |
-| 💡 `vc-innovate-agent` | Brainstorm de 2-3 abordagens. Deve produzir resumo de decisão antes do PLAN |
-| 📋 `vc-plan-agent` | Escreve spec com guards anti-racionalização. "Eu já sei como" não é um plano |
+| 🔍 `vc-research-agent` | Pesquisa de codebase + web, somente leitura. Tracking de contradicoes embutido |
+| 💡 `vc-innovate-agent` | Brainstorm de 2-3 abordagens. Deve produzir resumo de decisao antes do PLAN |
+| 📋 `vc-plan-agent` | Escreve spec com guards anti-racionalizacao. "Eu ja sei como" nao e um plano |
 | ⚡ `vc-execute-agent` | Implementa conforme plano. Check-in de 50%, protocolo de desvio, self-review |
-| ⏩ `vc-fast-mode-agent` | RESEARCH→INNOVATE→PLAN comprimido com pausa de segurança obrigatória |
-| 🧠 `vc-update-process-agent` | Checklist obrigatório de 7 fases incluindo scan de artefatos obsoletos |
+| ⏩ `vc-fast-mode-agent` | RESEARCH→INNOVATE→PLAN comprimido com pausa de seguranca obrigatoria |
+| 🧠 `vc-update-process-agent` | Checklist obrigatorio de 7 fases incluindo scan de artefatos obsoletos |
 
 <br>
 
@@ -855,12 +1043,12 @@ process/features/{feature}/
 
 | Agente | Papel |
 |-------|------|
-| 🐛 `vc-debugger` | Evidência antes de hipótese. Hipóteses concorrentes, cadeias de eliminação |
-| 🧪 `vc-tester` | Diff-aware. Só roda testes afetados. Auto-escala em mudanças de config |
-| 🔎 `vc-code-reviewer` | Scout de edge cases ANTES da revisão. Detecção de N+1, validação de paths de auth |
-| ✨ `vc-code-simplifier` | Refatoração de clareza sem mudança de comportamento |
-| 🎨 `vc-ui-ux-designer` | Frontend design-aware. Pode spawnar subagent de pesquisa durante execução |
-| 📦 `vc-git-manager` | Split lógico de commits a partir de `touched_files`. Recusa arquivos desconhecidos |
+| 🐛 `vc-debugger` | Evidencia antes de hipotese. Hipoteses concorrentes, cadeias de eliminacao |
+| 🧪 `vc-tester` | Diff-aware. So roda testes afetados. Auto-escala em mudancas de config |
+| 🔎 `vc-code-reviewer` | Scout de edge cases ANTES da revisao. Deteccao de N+1, validacao de paths de auth |
+| ✨ `vc-code-simplifier` | Refatoracao de clareza sem mudanca de comportamento |
+| 🎨 `vc-ui-ux-designer` | Frontend design-aware. Pode spawnar subagent de pesquisa durante execucao |
+| 📦 `vc-git-manager` | Split logico de commits a partir de `touched_files`. Recusa arquivos desconhecidos |
 
 </details>
 
@@ -875,15 +1063,15 @@ process/features/{feature}/
 
 **🔧 Skills de contrato** — `vc-generate-plan` · `vc-generate-context` · `vc-audit-context` · `vc-audit-plans` · `vc-audit-vc` · `vc-setup` · `vc-update` · `vc-publish`
 
-**🧠 Planejamento** — `vc-predict` (debate com 5 personas) · `vc-scenario` (edge cases em 12 dimensões) · `vc-sequential-thinking` · `vc-problem-solving`
+**🧠 Planejamento** — `vc-predict` (debate com 5 personas) · `vc-scenario` (edge cases em 12 dimensoes) · `vc-sequential-thinking` · `vc-problem-solving`
 
-**🐛 Debug & segurança** — `vc-debug` · `vc-security` (STRIDE + OWASP + auto-fix) · `vc-autoresearch` (otimização autônoma)
+**🐛 Debug & seguranca** — `vc-debug` · `vc-security` (STRIDE + OWASP + auto-fix) · `vc-autoresearch` (otimizacao autonoma)
 
-**📚 Pesquisa** — `vc-docs-seeker` · `vc-scout` · `vc-docs` · `vc-repomix` · `vc-xia` (comparação de repos)
+**📚 Pesquisa** — `vc-docs-seeker` · `vc-scout` · `vc-docs` · `vc-repomix` · `vc-xia` (comparacao de repos)
 
 **🎨 Frontend** — `vc-frontend-design` · `vc-chrome-devtools` · `vc-agent-browser` · `vc-web-testing`
 
-**⚙️ Utilitários** — `vc-context-engineering` · `vc-mcp-management` · `vc-preview` · `vc-team` (agentes em paralelo) · `vc-tech-graph` · `vc-watzup` (handoff de sessão) · `vc-merge-worktree`
+**⚙️ Utilitarios** — `vc-context-engineering` · `vc-mcp-management` · `vc-preview` · `vc-team` (agentes em paralelo) · `vc-tech-graph` · `vc-watzup` (handoff de sessao) · `vc-merge-worktree`
 
 </details>
 
@@ -893,13 +1081,13 @@ process/features/{feature}/
 
 | Hook | O que faz |
 |------|-------------|
-| 🔐 **Privacy guardrails** | Bloqueia `.env`, credenciais, chaves SSH. Requer aprovação explícita |
+| 🔐 **Privacy guardrails** | Bloqueia `.env`, credenciais, chaves SSH. Requer aprovacao explicita |
 | 🚫 **Scout blocker** | Impede o agente de entrar em `node_modules/`, `dist/`. Sintaxe gitignore via `.ckignore` |
-| 🧠 **Session init** | Detecta stack, injeta variáveis de ambiente, recupera approval gates após compactação |
+| 🧠 **Session init** | Detecta stack, injeta variaveis de ambiente, recupera approval gates apos compactacao |
 | 💉 **Subagent context** | Injeta bloco de contexto compacto de ~200 tokens em cada subagent |
-| ✨ **Edit quality** | Após 5+ edições, sugere rodar code-simplifier (não-bloqueante, com throttle) |
-| 📛 **Descriptive naming** | Convenções de nomenclatura de arquivos language-aware em cada Write |
-| 📊 **Usage tracking** | Métricas de sessão e awareness de tokens |
+| ✨ **Edit quality** | Apos 5+ edicoes, sugere rodar code-simplifier (nao-bloqueante, com throttle) |
+| 📛 **Descriptive naming** | Convencoes de nomenclatura de arquivos language-aware em cada Write |
+| 📊 **Usage tracking** | Metricas de sessao e awareness de tokens |
 
 <br>
 
@@ -908,8 +1096,8 @@ process/features/{feature}/
 ```
 your-project/
 ├── .claude/
-│   ├── agents/              # 🤖 12 definições de agentes (.md)
-│   ├── skills/              # ⚡ 31 módulos de skills (cada um é um diretório com SKILL.md)
+│   ├── agents/              # 🤖 12 definicoes de agentes (.md)
+│   ├── skills/              # ⚡ 31 modulos de skills (cada um e um diretorio com SKILL.md)
 │   └── hooks/               # 🪝 7 hooks de ciclo de vida (.cjs)
 ├── .codex/
 │   └── agents/              # 🔄 Espelhados para compatibilidade com Codex
@@ -918,8 +1106,8 @@ your-project/
 ├── CLAUDE.md                # 📋 Config do orquestrador + regras de roteamento
 ├── AGENTS.md                # 📖 Registro de agentes + skills
 └── process/
-    ├── context/             # 🧠 Domínios de conhecimento auto-roteados
-    ├── general-plans/       # 📋 Planos cross-cutting + relatórios
+    ├── context/             # 🧠 Dominios de conhecimento auto-roteados
+    ├── general-plans/       # 📋 Planos cross-cutting + relatorios
     ├── features/            # 🏷️ Folders de ciclo de vida por feature
     └── development-protocols/  # 📜 Regras de workflow compartilhadas
 ```
@@ -934,22 +1122,22 @@ Puxe as melhorias mais recentes do harness:
 Run vc-update
 ```
 
-> 💡 Mostra um diff em dry-run, espera confirmação. Seu diretório `process/` e conteúdo específico do projeto **nunca são tocados**.
+> 💡 Mostra um diff em dry-run, espera confirmacao. Seu diretorio `process/` e conteudo especifico do projeto **nunca sao tocados**.
 
 ---
 
 ## Contribuindo
 
-Contribuições são bem-vindas! Veja [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR.md) para as diretrizes.
+Contribuicoes sao bem-vindas! Veja [CONTRIBUTING.md](../../CONTRIBUTING.md) para as diretrizes.
 
 <br>
 
-**Links rápidos:**
+**Links rapidos:**
 
 - 🐛 [Reportar um bug](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=1.bug_report.yml)
 - 💡 [Solicitar uma feature](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=2.feature_request.yml)
 - ⚡ [Enviar uma skill](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=3.skill_submission.yml)
-- 🌐 [Adicionar uma tradução](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=5.translation.yml)
+- 🌐 [Adicionar uma traducao](https://github.com/withkynam/vibecode-pro-max-kit/issues/new?template=5.translation.yml)
 
 <br>
 
@@ -971,6 +1159,6 @@ Contribuições são bem-vindas! Veja [CONTRIBUTING.pt-BR.md](CONTRIBUTING.pt-BR
 
 ---
 
-## 📄 Licença
+## 📄 Licenca
 
 MIT

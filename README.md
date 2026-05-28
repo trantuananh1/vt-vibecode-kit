@@ -13,25 +13,29 @@
   <img src="assets/flowser-logo.svg" alt="Flowser" width="120">
 </a>
 
-*Sponsored by [Flowser.ai](https://flowser.ai) — AI Agents with computers for GTM*
+*Built by world-class engineers, for vibecoders at*<br>
+*[flowser.ai](https://flowser.ai) — AI Agents with computers for GTM*
 
 <br>
 
 # vibecode-pro-max-kit
 
-**Your AI coding agent writes code before it understands your project.<br>This harness turns it into a senior engineer that researches, plans, and gets smarter with every feature.**
+**Stop your AI from coding before it thinks — and forgetting every detailed prompt from you.<br>This harness turns any AI coding agent into a spec-driven engineering team<br>that researches, plans, ships production-grade code, and self-improves its memory to survive context-rotting even 6 months later.**
 
 <br>
+
+<p align="center">
+  <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
+  <br><br>
+  <em>"Total Concentration — Spec Breathing, Tenth Form: Constant Flux.<br>A continuous development cycle that grows stronger with each feature shipped.<br>Context compounds. The flow never breaks."</em><br>
+  <strong>— Tanjiro Kamado</strong>
+</p>
 
 🔬 Spec-driven development for AI agents<br>
 📋 Auto-generates PRDs, manages backlogs, routes context automatically<br>
 🧠 Self-improving knowledge base that compounds as you ship<br>
 ⚡ Runs autonomously for hours on large tasks without losing state<br>
 🤝 Plans and specs are shareable — devs, PMs, and stakeholders review the same artifacts
-
-<p align="center">
-  <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
-</p>
 
 <p>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/stargazers"><img src="https://img.shields.io/github/stars/withkynam/vibecode-pro-max-kit" alt="Stars"></a>
@@ -41,8 +45,30 @@
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/actions/workflows/validate.yml"><img src="https://img.shields.io/github/actions/workflow/status/withkynam/vibecode-pro-max-kit/validate.yml" alt="CI"></a>
   <a href="https://github.com/withkynam/vibecode-pro-max-kit/commits/main"><img src="https://img.shields.io/github/last-commit/withkynam/vibecode-pro-max-kit" alt="Last Commit"></a>
   <img src="https://img.shields.io/badge/agents-12-orange" alt="Agents">
-  <img src="https://img.shields.io/badge/skills-31-purple" alt="Skills">
-  <img src="https://img.shields.io/badge/platforms-Claude_Code_%7C_Codex-black" alt="Platforms">
+  <img src="https://img.shields.io/badge/skills-32-purple" alt="Skills">
+  <img src="https://img.shields.io/badge/tools-7_%E2%9C%93-38BDF8" alt="7 Tools">
+</p>
+
+<p>
+  <strong>The simplest, most flexible, team-friendly coding harness for</strong><br><br>
+  <a href="https://github.com/anthropics/claude-code"><img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>&nbsp;
+  <a href="https://github.com/openai/codex"><img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex CLI"></a>&nbsp;
+  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"></a>&nbsp;
+  <a href="https://windsurf.com"><img src="https://img.shields.io/badge/Windsurf-09B6A2?style=for-the-badge&logo=codeium&logoColor=white" alt="Windsurf"></a><br>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="https://img.shields.io/badge/Antigravity-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Antigravity"></a>&nbsp;
+  <a href="https://github.com/opencode-ai/opencode"><img src="https://img.shields.io/badge/OpenCode-333?style=for-the-badge" alt="OpenCode"></a>&nbsp;
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"></a>
+</p>
+
+<p>
+  <em>Works across any tech stack, any language, any project</em><br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=dark&perline=15" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&theme=light&perline=15" />
+    <img alt="Tech Stack" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nuxt,svelte,angular,nodejs,express,bun,python,django,flask,fastapi,ruby,rails,go,rust,java,spring,kotlin,swift,php,laravel,cs,dotnet,elixir,graphql,prisma,supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&perline=15" />
+  </picture>
+  <br>
+  <sub>React · Next.js · Vue · Nuxt · Svelte · Angular · React Native · Electron · Node.js · Express · Bun · Hono · Python · Django · FastAPI · Flask · Ruby · Rails · Go · Rust · Java · Spring Boot · Kotlin · Swift · PHP · Laravel · C# · .NET · Elixir · TypeScript · Prisma · Supabase · Firebase · PostgreSQL · MongoDB · Redis · GraphQL · Docker · Kubernetes · Terraform · AWS · GCP · Azure · Vercel · Cloudflare · Tailwind · shadcn/ui · and any other stack your project uses</sub>
 </p>
 
 </div>
@@ -154,15 +180,19 @@ Important rules:
 <br>
 
 <details>
-<summary>📖 Table of Contents</summary>
+<summary>Table of Contents</summary>
 
 - [The Problem](#-the-problem)
-- [The Fix](#️-the-fix)
+- [The Fix](#-the-fix)
+- [The Vibe Coding Revolution](#the-vibe-coding-revolution)
+- [Who Is This For?](#who-is-this-for)
+- [At a Glance](#at-a-glance)
 - [Why Teams Use This](#-why-teams-use-this)
+- [How This Compares](#how-this-compares)
 - [What Makes This Different](#-what-makes-this-different)
 - [What's Inside](#-whats-inside)
 - [How It Works](#-how-it-works)
-- [Built-in Safety Systems](#️-built-in-safety-systems)
+- [Built-in Safety Systems](#-built-in-safety-systems)
 - [Contributing](#contributing)
 - [Star History](#-star-history)
 
@@ -176,31 +206,43 @@ You ask Claude to "add webhook support." It immediately starts writing code. No 
 
 **But that's just the surface.** The deeper problems hit harder:
 
-<br>
-
-> 🧠 **Context dies every session**
->
-> Your agent forgets everything it learned. Same mistakes, same questions, every time. No memory, no compounding knowledge.
-
-> 📄 **Docs go stale instantly**
->
-> You wrote great context docs last week. They're already outdated. Nothing auto-updates them as the codebase evolves.
-
-> 💥 **Big tasks collapse mid-way**
->
-> Context window fills up, state is lost, the agent starts hallucinating. You restart from scratch on hour 3.
-
-> 🤝 **No specs, no review, no collaboration**
->
-> Your PM can't review what the agent is about to build. There's no artifact to share, discuss, or approve before code is written.
-
-> 🎭 **Architecture decisions are hallucinated**
->
-> The agent invents patterns instead of researching how other codebases solved the same problem.
-
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧠</h1>
+<strong>Context dies every session</strong><br><br>
+Your agent forgets everything it learned. Same mistakes, same questions, every time. No memory, no compounding knowledge.
+</td>
+<td width="50%" valign="top">
+<h1>📄</h1>
+<strong>Docs go stale instantly</strong><br><br>
+You wrote great context docs last week. They're already outdated. Nothing auto-updates them as the codebase evolves.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>💥</h1>
+<strong>Big tasks collapse mid-way</strong><br><br>
+Context window fills up, state is lost, the agent starts hallucinating. You restart from scratch on hour 3.
+</td>
+<td width="50%" valign="top">
+<h1>🤝</h1>
+<strong>No specs, no review, no collaboration</strong><br><br>
+Your PM can't review what the agent is about to build. There's no artifact to share, discuss, or approve before code is written.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>Architecture decisions are hallucinated</strong><br><br>
+The agent invents patterns instead of researching how other codebases solved the same problem.
+</td>
+</tr>
+</table>
 
 **Your agent has intelligence but no process, no memory, and no way to collaborate with your team.**
+
+Whether you're a developer, a PM, or a CEO who just started vibe coding — this problem hits everyone the same way. The fix is the same too: **give your agent a real development process.**
 
 ---
 
@@ -210,13 +252,39 @@ This harness installs a complete development system into your project — not ju
 
 <br>
 
-| | What it solves | How |
-|---|---|---|
-| 📋 | **Spec-driven plans** | PMs and devs review the same plan artifact before any code is written |
-| 🔄 | **Self-improving context** | Auto-updates every time a feature ships — docs never go stale |
-| ⚡ | **Autonomous execution** | Survives context compaction — runs for hours, not minutes |
-| 🧬 | **Architecture research** | Studies real codebases before making design decisions |
-| 🧭 | **Smart context routing** | Loads only what's relevant — not your entire knowledge base every time |
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>📋</h1>
+<strong>Spec-driven plans</strong><br><br>
+<sub>PMs and devs review the same plan artifact before any code is written</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Self-improving context</strong><br><br>
+<sub>Auto-updates every time a feature ships — docs never go stale</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<strong>Autonomous execution</strong><br><br>
+<sub>Survives context compaction — runs for hours, not minutes</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🧬</h1>
+<strong>Architecture research</strong><br><br>
+<sub>Studies real codebases before making design decisions</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🧭</h1>
+<strong>Smart context routing</strong><br><br>
+<sub>Loads only what's relevant — not your entire knowledge base every time</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -245,6 +313,151 @@ flowchart TD
 ```
 
 Every transition requires your **explicit approval**. Nothing auto-advances. You stay in control.
+
+---
+
+## The Vibe Coding Revolution
+
+<div align="center">
+<h3><em>"The hottest new programming language is English."</em></h3>
+<strong>— Andrej Karpathy</strong>
+</div>
+
+<br>
+
+**Vibe coding changed who can build software. Spec-driven development changes what they can ship.**
+
+<table>
+<tr>
+<td align="center" width="50%">
+<h3>63%</h3>
+<sub>of vibe coding users are <strong>NOT</strong> developers</sub>
+</td>
+<td align="center" width="50%">
+<h3>16.2M</h3>
+<sub>citizen developers worldwide<br>(38% YoY growth)</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<h3>$4.7B</h3>
+<sub>vibe coding market<br>growing 38% annually</sub>
+</td>
+<td align="center" width="50%">
+<h3>25%</h3>
+<sub>of YC W25 startups had 95%+ AI-generated codebases</sub>
+</td>
+</tr>
+</table>
+
+Most tools help you start a project. This harness helps you **finish it** — with plans your team can review, context that never goes stale, and safety systems that catch mistakes before they ship.
+
+---
+
+## Who Is This For?
+
+<div align="center">
+<h3><em>"The point isn't who typed it. It's what shipped."</em></h3>
+<strong>— Garry Tan, YC</strong>
+</div>
+
+<br>
+
+Whether you just discovered vibe coding or you're a staff engineer shipping production systems — this harness adapts to your workflow.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🧑‍💼</h1>
+<strong>CEO / Founder</strong><br><br>
+<em>"Build me a SaaS with auth, billing, and a landing page"</em><br><br>
+The agent researches your stack, writes an architecture plan you can review, implements with tests, and captures every decision for your technical co-founder to audit later.
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>Product Manager</strong><br><br>
+<em>"Create a dashboard showing MRR, churn, and growth metrics"</em><br><br>
+It generates a PRD-style spec, gets your approval before writing code, implements to spec, and archives the plan as searchable project history.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🎨</h1>
+<strong>Designer</strong><br><br>
+<em>"Match this Figma screenshot pixel-perfect"</em><br><br>
+The design-aware agent analyzes your mockup, implements component-by-component with your design tokens, and spawns visual comparison checks.
+</td>
+<td width="50%" valign="top">
+<h1>⚙️</h1>
+<strong>Engineer</strong><br><br>
+<em>"Refactor the auth module to support RBAC with zero downtime"</em><br><br>
+It researches your current auth code and how other codebases solved RBAC, writes a migration plan with blast radius analysis, implements safely with rollback notes.
+</td>
+</tr>
+</table>
+
+---
+
+## At a Glance
+
+<table>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🤖</h1>
+<h3>12</h3>
+<strong>Specialized Agents</strong><br>
+<sub>Domain experts that own each development phase</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>32</h3>
+<strong>Auto-Discovered Skills</strong><br>
+<sub>Reusable capabilities surfaced by keyword matching</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🪝</h1>
+<h3>7</h3>
+<strong>Lifecycle Hooks</strong><br>
+<sub>Pre/post execution guardrails and context injection</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>📜</h1>
+<h3>6</h3>
+<strong>Development Protocols</strong><br>
+<sub>Shared workflow rules across all tools</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🛡️</h1>
+<h3>5</h3>
+<strong>Safety Systems</strong><br>
+<sub>Phase-locking, blast radius, privacy, leak detection</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>🔧</h1>
+<h3>7</h3>
+<strong>Supported Tools</strong><br>
+<sub>Claude Code, Codex, Cursor, Windsurf, Antigravity, OpenCode, Copilot</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%" valign="top">
+<h1>🌍</h1>
+<h3>6</h3>
+<strong>Languages</strong><br>
+<sub>EN · 中文 · 日本語 · 한국어 · Tiếng Việt · Português</sub>
+</td>
+<td align="center" width="50%" valign="top">
+<h1>⚡</h1>
+<h3>30s</h3>
+<strong>Install Time</strong><br>
+<sub>One curl command + auto-setup does the rest</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -323,78 +536,69 @@ Every completed feature feeds learnings back into the context system.
 
 ---
 
+## How This Compares
+
+| Feature | vibecode-pro-max-kit | Superpowers | GSD | gstack |
+|---------|---------------------|-------------|-----|--------|
+| Spec-driven lifecycle | Full RIPER-5 (research → plan → execute → verify) | Mandatory workflows | Context-rot fix | Partial |
+| Phase-locked safety | Tool restrictions per mode (read-only research, no-write innovate) | Skill-based constraints | Phase separation | None |
+| Multi-tool support | 7 tools via AGENTS.md + native | Claude Code plugin | 14 runtimes | 1 tool |
+| Auto-improving context | Domain-routed context groups, updates after every feature | Plugin memory | Disk-persisted state | Manual |
+| Team collaboration | Shared specs, plans, and review artifacts | Solo | Solo | Solo |
+| Skills system | 32 auto-discovered, keyword-matched at every prompt | 86 composable skills | Meta-prompting | 23 role tools |
+| Multi-phase programs | Umbrella plans + phase-by-phase execution loop with regression checks | Single task | Single task | Single task |
+| Quality pipeline | 6-step chain (code-review → test → simplify → security → audit → commit) | Per-skill quality | No auto-chain | No auto-chain |
+| Installation | 30-second `curl` install + auto-setup | Plugin marketplace | npx one-liner | git clone |
+| Context routing | Domain-based routing table with grouped context packs | Flat skill context | Flat context | Single file |
+
+> **On runtime breadth:** GSD supports 14 runtimes. We support 7 deeply — with full agent harnesses, skill discovery, and lifecycle hooks on every platform. Breadth vs. depth: your choice.
+
+---
+
 ## ⚡ What Makes This Different
 
 Most agent harnesses give you a big CLAUDE.md and some instructions. Here's what this one actually does:
 
 <br>
 
-### 🔒 Phase-Locked Tool Restrictions
-
-Your agent literally **cannot** write code during research.
-
-> Each phase has tool restrictions enforced at the agent level — RESEARCH is read-only, INNOVATE has no Bash access at all, PLAN can only write to `process/` directories. Not instructions that can be ignored — **actual capability removal**.
-
-<br>
-
-### 🎯 Smart Auto-Routing with Intent Detection
-
-The system detects your intent from natural language and routes to the correct pipeline automatically.
-
-| You say | System detects | Routes to |
-|---|---|---|
-| "build webhook support" | Feature request | 🔍 research → 💡 innovate → 📋 plan → ⚡ execute |
-| "login is broken" | Bug | 🐛 debugger → ⚡ execute |
-| "clean up the auth module" | Refactor | ✨ code-simplifier (or full pipeline if behavioral) |
-| "add rate limiting" | Feature (fast) | ⏩ fast-mode (compressed pipeline) |
-
-> 💡 A 6-level precedence order resolves conflicts when multiple intents match. One clarifying question max — never a 20-questions interrogation.
-
-<br>
-
-### 🔍 Automatic Skill Discovery (Step 0)
-
-Before routing any request, the orchestrator scans **31 skills** and matches keywords.
-
-> Say "add webhook support" and it automatically surfaces `vc-security` and `vc-scenario` alongside the feature workflow. You don't need to know what skills exist — **they find you**.
-
-<br>
-
-### 💾 Survives Context Window Compaction
-
-When your context window fills up, **nothing is lost**.
-
-```
-Plans          →  process/general-plans/active/
-Reports        →  process/features/{feature}/reports/
-Context docs   →  process/context/{domain}/all-{domain}.md
-Learnings      →  process/context/all-context.md
-Approval state →  re-injected by session-init hook after compaction
-```
-
-> 💡 The session-init hook detects compaction events and re-injects approval gate state — so the agent can't silently skip past an approval it already received.
-
-<br>
-
-### 🛡️ Self-Policing Violation Detection
-
-Every agent has a built-in interrupt protocol.
-
-> When it detects it's about to cross a phase boundary, it stops itself: *"PHASE JUMPING PREVENTED: [activity] belongs to EXECUTE but I'm in RESEARCH mode."* This is a **structural hallucination guard**.
-
-<br>
-
-### 🔄 Works Across Claude Code and Codex
-
-Plans, context, and skills are shared artifacts.
-
-```
-.claude/agents/        ←→  .codex/agents/         # mirrored
-.claude/skills/        ←→  .agents/skills          # symlinked
-process/               ←→  shared by both          # plans, context, features
-```
-
-> 💡 Start in Claude Code, continue in Codex. Same agents, same skills, same workflow.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔒</h1>
+<strong>Phase-Locked Tool Restrictions</strong><br><br>
+Your agent literally <strong>cannot</strong> write code during research. RESEARCH is read-only, INNOVATE has no Bash, PLAN can only write to <code>process/</code>. <strong>Actual capability removal</strong>, not suggestions.
+</td>
+<td width="50%" valign="top">
+<h1>🎯</h1>
+<strong>Smart Auto-Routing</strong><br><br>
+Detects your intent from natural language. "build webhook support" → full pipeline. "login is broken" → debugger. 6-level precedence, one clarifying question max.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔍</h1>
+<strong>Automatic Skill Discovery</strong><br><br>
+Before routing any request, scans <strong>32 skills</strong> and matches keywords. Say "add webhook support" and <code>vc-security</code> + <code>vc-scenario</code> surface automatically.
+</td>
+<td width="50%" valign="top">
+<h1>💾</h1>
+<strong>Survives Context Compaction</strong><br><br>
+Plans, reports, context docs, and learnings all live on disk. The session-init hook re-injects approval gates after compaction. <strong>Nothing is lost.</strong>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🛡️</h1>
+<strong>Self-Policing Violation Detection</strong><br><br>
+When the agent is about to cross a phase boundary, it stops itself: <em>"PHASE JUMPING PREVENTED"</em>. A <strong>structural hallucination guard</strong>.
+</td>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Works Across 7 AI Coding Tools</strong><br><br>
+Two open standards — <code>AGENTS.md</code> and <code>SKILL.md</code> — mean <strong>zero adapters, zero plugins, zero configuration.</strong> Start in Claude Code, switch to Cursor, continue in Codex.
+</td>
+</tr>
+</table>
 
 ---
 
@@ -477,31 +681,44 @@ You: "improve test coverage to 80% using vc-autoresearch"
 
 These aren't just guidelines — they're **structural enforcement** built into every agent.
 
-<br>
-
-> ⏸️ **50% Mid-Implementation Check-In**
->
-> At approximately halfway through execution, the agent **pauses** to report progress, list completed and remaining items, and asks: *"Continue with current approach or pause and return to PLAN?"*
-
-> 🚫 **Never Silently Deviate**
->
-> If the execute-agent hits a problem requiring deviation from the plan, it **immediately stops**, explains the issue, and returns to PLAN mode. No quiet improvising.
-
-> 🔙 **Approach Abandonment Protocol**
->
-> When an approach fails, the agent evaluates reusable components, documents lessons before deletion, creates an abandonment summary, and returns to PLAN. Knowledge is preserved, not lost.
-
-> 🔐 **Privacy Guardrails Hook**
->
-> The agent is **blocked from reading** `.env`, credentials, SSH keys, and `.pem` files. Must ask for explicit approval. Fail-open design means a broken hook never blocks your workflow.
-
-> ⚠️ **High-Risk Evidence Packs**
->
-> For changes touching auth, billing, schema migrations, or public APIs — the system requires a formal evidence pack before calling work "done." Auto-stop if evidence is missing.
-
-> 📊 **Drift Signal Scoring**
->
-> After execution, the system scores urgency for process updates: **LOW** (light touch), **MEDIUM** (significant changes), **HIGH** (harness/protocol files touched). Small changes get a light nudge. Protocol changes get a strong push.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>⏸️</h1>
+<strong>50% Mid-Implementation Check-In</strong><br><br>
+At approximately halfway through execution, the agent <strong>pauses</strong> to report progress, list completed and remaining items, and asks: <em>"Continue with current approach or pause and return to PLAN?"</em>
+</td>
+<td width="50%" valign="top">
+<h1>🚫</h1>
+<strong>Never Silently Deviate</strong><br><br>
+If the execute-agent hits a problem requiring deviation from the plan, it <strong>immediately stops</strong>, explains the issue, and returns to PLAN mode. No quiet improvising.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔙</h1>
+<strong>Approach Abandonment Protocol</strong><br><br>
+When an approach fails, the agent evaluates reusable components, documents lessons before deletion, creates an abandonment summary, and returns to PLAN.
+</td>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>Privacy Guardrails Hook</strong><br><br>
+The agent is <strong>blocked from reading</strong> <code>.env</code>, credentials, SSH keys, and <code>.pem</code> files. Must ask for explicit approval.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>⚠️</h1>
+<strong>High-Risk Evidence Packs</strong><br><br>
+For changes touching auth, billing, schema migrations, or public APIs — the system requires a formal evidence pack before calling work "done."
+</td>
+<td width="50%" valign="top">
+<h1>📊</h1>
+<strong>Drift Signal Scoring</strong><br><br>
+After execution, the system scores urgency: <strong>LOW</strong> (light touch), <strong>MEDIUM</strong> (significant changes), <strong>HIGH</strong> (harness/protocol files touched).
+</td>
+</tr>
+</table>
 
 ---
 
@@ -511,41 +728,27 @@ Before a single line of code is written, the system can catch issues through spe
 
 <br>
 
-### 🎭 5-Persona Pre-Implementation Debate
-
-**Skill:** `vc-predict`
-
-| Persona | Focus |
-|---|---|
-| 🏗️ **Architect** | Structural integrity, extensibility, tech debt |
-| 🔐 **Security** | Attack surfaces, auth flows, data exposure |
-| ⚡ **Performance** | Latency, memory, scalability bottlenecks |
-| 🎨 **UX** | User impact, edge cases, accessibility |
-| 😈 **Devil's Advocate** | *"Why not do nothing?"* — challenges the premise |
-
-> 💡 They identify agreements, resolve conflicts through tradeoff weighting, and produce a **GO / CAUTION / STOP** verdict.
-
-<br>
-
-### 🎲 12-Dimension Edge Case Generator
-
-**Skill:** `vc-scenario`
-
-> Decomposes any feature across **12 dimensions** — generates 3-5 scenarios per dimension, severity-ranked. Outputs are directly usable as test specs.
-
-| | | | |
-|---|---|---|---|
-| 👤 User Types | 📥 Input Extremes | ⏱️ Timing | 📈 Scale |
-| 🔄 State Transitions | 🌍 Environment | 💥 Error Cascades | 🔑 Authorization |
-| 💾 Data Integrity | 🔌 Integration | 📋 Compliance | 💰 Business Logic |
-
-<br>
-
-### 🔐 STRIDE + OWASP Security Audit
-
-**Skill:** `vc-security`
-
-> Dual-methodology security audit combining **STRIDE threat modeling** with **OWASP Top 10**. Includes dependency auditing, secret detection, and an **auto-fix mode** that sorts findings by severity and fixes Critical first — with regression guards at each step.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🎭</h1>
+<strong>5-Persona Pre-Implementation Debate</strong><br><br>
+<code>vc-predict</code> — Architect, Security, Performance, UX, and Devil's Advocate debate your plan. Produces a <strong>GO / CAUTION / STOP</strong> verdict before you write a line of code.
+</td>
+<td width="50%" valign="top">
+<h1>🎲</h1>
+<strong>12-Dimension Edge Case Generator</strong><br><br>
+<code>vc-scenario</code> — Decomposes any feature across 12 dimensions (user types, input extremes, timing, scale, state, env, errors, auth, data, integrations, compliance, business logic). Outputs usable as test specs.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔐</h1>
+<strong>STRIDE + OWASP Security Audit</strong><br><br>
+<code>vc-security</code> — Dual-methodology security audit with dependency auditing, secret detection, and <strong>auto-fix mode</strong> that sorts by severity and fixes Critical first with regression guards.
+</td>
+</tr>
+</table>
 
 ---
 
@@ -553,42 +756,27 @@ Before a single line of code is written, the system can catch issues through spe
 
 <br>
 
-### 🔄 Autonomous Metric Optimization
-
-**Skill:** `vc-autoresearch`
-
-Set a goal, walk away. The agent runs an **iterative, git-backed optimization loop** over any measurable metric:
-
-> 📈 Test coverage · 📦 Bundle size · ⚠️ ESLint errors · 🚀 Lighthouse score
-
-Each iteration makes **ONE atomic change** → commits → measures → keeps or reverts.
-
-> 💡 Stuck detection triggers strategy shifts after 5 consecutive discards. Full audit trail in TSV.
-
-<br>
-
-### 👥 Parallel Agent Teams
-
-**Skill:** `vc-team`
-
-Multiple independent agents working **simultaneously** — not sequentially:
-
-| Template | How it works |
-|---|---|
-| 🔍 **Research** | N angles explored in parallel |
-| ⚡ **Execute** | Parallel developers with **git worktree isolation** (zero file conflicts) |
-| 🔎 **Review** | Independent reviewers producing deduplicated, severity-ranked findings |
-| 🐛 **Debug** | Competing hypotheses tested adversarially — debuggers trying to disprove each other |
-
-<br>
-
-### 🔬 Evidence-Before-Hypothesis Debugging
-
-**Agent:** `vc-debugger`
-
-> The debugger gathers evidence first → forms 2-3 competing hypotheses → systematically tests each one → documents the elimination path → states root cause with an evidence chain.
-
-It **never guesses — it proves.** And it doesn't implement fixes — it hands a "fix boundary" back to execute-agent.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h1>🔄</h1>
+<strong>Autonomous Metric Optimization</strong><br><br>
+<code>vc-autoresearch</code> — Set a goal, walk away. Iterative git-backed loop: make ONE atomic change → commit → measure → keep or revert. Stuck detection after 5 consecutive discards triggers strategy shifts.
+</td>
+<td width="50%" valign="top">
+<h1>👥</h1>
+<strong>Parallel Agent Teams</strong><br><br>
+<code>vc-team</code> — Multiple agents working <strong>simultaneously</strong> with git worktree isolation. Research in parallel, execute in parallel, review in parallel, debug adversarially.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h1>🔬</h1>
+<strong>Evidence-Before-Hypothesis Debugging</strong><br><br>
+<code>vc-debugger</code> — Gathers evidence first → forms 2-3 competing hypotheses → systematically tests each → documents elimination path. <strong>Never guesses — proves.</strong>
+</td>
+</tr>
+</table>
 
 ---
 

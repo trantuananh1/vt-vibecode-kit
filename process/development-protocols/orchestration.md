@@ -113,15 +113,33 @@ Controller rules for phase programs:
 
 1. keep one umbrella plan plus one selected current phase
 2. do not run the whole program as one giant EXECUTE pass
-3. for each phase, require the mini-loop:
+3. for each phase, require the 10-step loop:
    - research subagent
    - execution approval checkpoint
    - execute subagent
    - validate subagent
+   - regression checkpoint (against previously verified overlapping surfaces)
+   - regression-found workflow (conditional, if regression detected)
    - durable report/context update
+   - commit checkpoint (vc-git-manager for execution changes)
+   - inter-phase UPDATE PROCESS (archive phase, capture learnings)
+   - move-on recommendation
 4. after each phase, update reports and downstream phase plans before advancing
 5. if the original program reaches a narrower scoped goal than the user's larger vision, split the
    remaining work into follow-up feature folders instead of stretching one project forever
+
+## Intent Clarification
+
+Before routing a new user request to a subagent, consult
+`process/development-protocols/intent-clarification.md` for the tiered
+clarification protocol.
+
+The orchestrator scores the request's ambiguity (0-4 signals), selects a tier
+(silent auto-route, inline summary, or full checkpoint), and resolves intent
+in the main thread before delegating.
+
+Auto-skip conditions (continuation phrases, mid-program, trivial fixes, explicit
+mode commands, plan resumption) bypass clarification entirely.
 
 ## Parallel Fan-Out Checkpoints
 
@@ -168,6 +186,10 @@ Required closeout packet:
 7. commit-checkpoint recommendation
    - if the selected phase is validated and execution changes are present, explicitly recommend whether to invoke `vc-git-manager` before UPDATE PROCESS
    - if only process/plan/context artifacts remain, say that the commit checkpoint belongs after UPDATE PROCESS instead of before it
+8. regression status (phase programs only)
+   - list which previously verified surfaces were checked for regression
+   - state whether all passed, or whether fixes were applied
+   - if regression checking was skipped (e.g., first phase), state why
 
 Required closeout choices:
 
