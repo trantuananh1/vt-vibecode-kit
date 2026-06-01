@@ -27,7 +27,7 @@
 <p align="center">
   <img src="https://media.tenor.com/q_5em_iLaxoAAAAC/tanjiro-i-water-style.gif" alt="Flow like water" width="480">
   <br><br>
-  <em>"전집중 — 스펙의 호흡, 열 번째 형: 생생유전.<br>기능을 출시할 때마다 더 강해지는 끊임없는 개발 순환.<br>컨텍스트가 누적된다. 흐름은 절대 끊기지 않는다."</em><br>
+  <em>"전집중 — 스펙의 호흡, 열 번째 형: 바이브의 흐름은 절대 끊기지 않는다."</em><br>
   <strong>— 카마도 탄지로</strong>
 </p>
 
@@ -80,7 +80,10 @@
     <img alt="Tech Stack Row 3" src="https://skillicons.dev/icons?i=supabase,firebase,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,vercel,cloudflare,tailwind,electron&perline=15" />
   </picture>
   <br>
-  <sub>React · Next.js · Vue · Nuxt · Svelte · Angular · React Native · Electron · Node.js · Express · Bun · Hono · Python · Django · FastAPI · Flask · Ruby · Rails · Go · Rust · Java · Spring Boot · Kotlin · Swift · PHP · Laravel · C# · .NET · Elixir · TypeScript · Prisma · Supabase · Firebase · PostgreSQL · MongoDB · Redis · GraphQL · Docker · Kubernetes · Terraform · AWS · GCP · Azure · Vercel · Cloudflare · Tailwind · shadcn/ui · 그리고 여러분의 프로젝트가 사용하는 모든 스택</sub>
+  <p><em>단순 장식이 아닙니다. <code>vc-setup</code>을 실행하면 병렬 에이전트가 코드베이스를 스캔하고,<br>
+  스택을 감지하여 모든 스킬이 작동 전에 읽는 프로젝트 전용 컨텍스트 그룹을 구축합니다.<br>
+  다른 하네스는 에이전트를 특정 언어에 고정합니다——<code>rust-review-agent</code>, <code>python-linter</code>——다른 곳에서는 쓸모없습니다.<br>
+  이 하네스는 위의 어떤 조합에도 적응하고 기능을 ship할수록 지식을 축적합니다.</em></p>
 </p>
 
 </div>
