@@ -4,7 +4,11 @@
   <a href="README.ja-JP.md">日本語</a> |
   <strong>한국어</strong> |
   <a href="README.vi-VN.md">Tiếng Việt</a> |
-  <a href="README.pt-BR.md">Portugues</a>
+  <a href="README.pt-BR.md">Português</a> |
+  <a href="README.es.md">Español</a> |
+  <a href="README.de.md">Deutsch</a> |
+  <a href="README.fr.md">Français</a> |
+  <a href="README.hi.md">हिंदी</a>
 </p>
 
 <div align="center">
