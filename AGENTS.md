@@ -453,6 +453,7 @@ Skill Registry:
 | `vc-sequential-thinking` | Step-by-step reasoning | complex problem, think through, analyze step by step |
 | `vc-problem-solving` | Cognitive unblocking techniques | stuck, can't figure out, complex, spiral |
 | `vc-context-engineering` | Token/context optimization | context limit, token usage, optimize context |
+| `vc-create-skill` | Create new skills for the harness | create a skill, write a new skill, build a skill, add a skill, make a skill, design a skill, develop a skill |
 | `vc-preview` | Visual diagrams, slides, file viewer | diagram, visualize, slides, preview |
 | `vc-mcp-management` | MCP server tools | MCP, model context protocol |
 | `vc-chrome-devtools` | Puppeteer browser automation | browser, screenshot, scrape, automate browser |
