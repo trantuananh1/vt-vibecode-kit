@@ -1,5 +1,5 @@
 ---
-name: vc:preview
+name: vc:design-system
 description: "Use when you need to inspect files or generate visual explanations, slides, diagrams, or HTML recaps."
 argument-hint: "[path] OR [--html] --explain|--slides|--diagram|--ascii [topic] OR --html --diff|--plan-review|--recap"
 metadata:

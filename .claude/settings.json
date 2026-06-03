@@ -7,6 +7,11 @@
           {
             "type": "command",
             "command": "node .claude/hooks/session-init.cjs"
+          },
+          {
+            "type": "command",
+            "command": "bash .claude/scripts/flatten-skills.sh",
+            "timeout": 10
           }
         ]
       }

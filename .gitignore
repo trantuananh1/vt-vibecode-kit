@@ -6,3 +6,5 @@ node_modules/
 .claude/hooks/.logs/
 .codex/hooks/.logs/
 .codex/statusline.cjs
+.claude/skills/vc-preview/
+.claude/skills/vc-design-system/
