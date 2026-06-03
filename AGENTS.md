@@ -467,6 +467,12 @@ Skill Registry:
 Rule: When one or more skills match the request, mention them to the user or include them in
 the subagent prompt context. Never silently skip relevant skills.
 
+Skill creation routing is special: when the user asks to create, write, build, add, make, design,
+or develop a skill in this repo, always use the project-local `vc-create-skill` workflow instead of
+any global `create-skill` skill. `vc-create-skill` owns the mandatory role/scope gate and must ask
+for `role-dev`, `role-sa`, or `root` before creating skill files unless the user already provided
+that role/scope explicitly.
+
 ### 1. Detect Intent
 
 Feature Request (keywords: "build", "add", "implement", "create feature")

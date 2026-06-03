@@ -18,13 +18,20 @@ Follow these steps in order. After each step, ask confirmation questions before 
 
 ### Step 1: Capture Intent
 
-Understand what the new skill should do. Ask:
+Understand what the new skill should do. Ask these questions before creating any files:
 
 1. **What should this skill enable the agent to do?**
-2. **When should it trigger?** (specific user phrases/contexts)
-3. **What is the expected output or behavior?**
-4. **Are there existing skills in the codebase that do something similar?**
-5. **What rules should this skill follow?** (e.g., "no XSS", "type safety", "no as any", "always validate input")
+2. **Which role or scope should own this skill?** This is mandatory. Ask even when the user says only "role dev", "dev role", or another shorthand. Normalize answers into folder names, for example `dev` -> `role-dev`, `sa` -> `role-sa`, or `none/root` -> root-level `.claude/skills/`.
+3. **When should it trigger?** (specific user phrases/contexts)
+4. **What is the expected output or behavior?**
+5. **Are there existing skills in the same role/scope or codebase that do something similar?**
+6. **What rules should this skill follow?** (e.g., "no XSS", "type safety", "no as any", "always validate input")
+
+**Role/scope gate:**
+- Do not proceed to Step 2 until the role/scope is explicit and confirmed.
+- Do not assume root-level placement when the user mentions a role.
+- If the user says "role dev", create under `.claude/skills/role-dev/`.
+- If role/scope is missing, ask: "Skill này thuộc role/scope nào? Ví dụ `role-dev`, `role-sa`, hoặc `root` nếu không role."
 
 Check existing skills for reference patterns:
 ```bash
@@ -33,7 +40,8 @@ ls .agents/skills/
 ```
 
 **Confirmation before proceeding:**
-- "Skill này enable agent làm [X], trigger khi [Y], tuân theo rules [Z]. Confirm?"
+- "Skill này enable agent làm [X], thuộc role/scope [R], trigger khi [Y], tuân theo rules [Z]. Confirm?"
+- "Role/scope này có đúng không? Ví dụ `role-dev` sẽ tạo trong `.claude/skills/role-dev/`, `role-sa` sẽ tạo trong `.claude/skills/role-sa/`, còn `root` sẽ tạo trực tiếp trong `.claude/skills/`."
 - "Có rules nào khác cần thêm không?"
 
 ### Step 2: Analyze Reusable Resources
@@ -60,22 +68,32 @@ For the skill's intended functionality, determine what bundled resources are nee
 
 ### Step 3: Create Skill Structure
 
-Create the skill directory in `.claude/skills/`:
+Create the skill directory under `.claude/skills/`, using the required role/scope captured in Step 1:
 
 ```bash
-SKILL_NAME="skill-name"  # kebab-case, must start with vc-
-mkdir -p .claude/skills/$SKILL_NAME/{references,examples,scripts}
-touch .claude/skills/$SKILL_NAME/SKILL.md
+SKILL_NAME="vc-design-system"  # folder name: kebab-case, must start with vc-
+ROLE_SCOPE="role-dev"          # required decision: role-dev, role-sa, or empty only when user explicitly confirmed root
+
+if [ -n "$ROLE_SCOPE" ]; then
+  SKILL_PATH=".claude/skills/$ROLE_SCOPE/$SKILL_NAME"
+else
+  SKILL_PATH=".claude/skills/$SKILL_NAME"
+fi
+
+mkdir -p "$SKILL_PATH"/{references,examples,scripts}
+touch "$SKILL_PATH/SKILL.md"
 ```
 
-Also create a symlink for Codex discovery:
-```bash
-ln -sf ../../.claude/skills/$SKILL_NAME .agents/skills/$SKILL_NAME
-```
+**Path examples:**
+- No role/scope: `.claude/skills/vc-frontend/`
+- With `role-dev`: `.claude/skills/role-dev/vc-spring-boot-4-upgrade/`
+- With `role-sa`: `.claude/skills/role-sa/vc-design-system/`
+
+Do not create per-skill symlinks when `.agents/skills` already points to `../.claude/skills`; nested role/scope paths are discovered through the parent symlink.
 
 **Confirmation before proceeding:**
-- "Directory structure tại `.claude/skills/$SKILL_NAME/`. Confirm?"
-- "Symlink đã tạo. Proceed?"
+- "Directory structure tại `$SKILL_PATH/`. Confirm?"
+- "Role/scope path đã đúng chưa? Proceed?"
 
 ### Step 4: Write SKILL.md
 
@@ -145,8 +163,11 @@ Create the actual resource files:
 Run the validation checklist before finishing:
 
 **Structure checklist:**
-- [ ] SKILL.md exists with valid YAML frontmatter
+- [ ] SKILL.md exists at the confirmed root or role-scoped path
+- [ ] Role/scope path is correct (e.g., `.claude/skills/role-sa/vc-design-system/`)
+- [ ] SKILL.md has valid YAML frontmatter
 - [ ] Frontmatter has `name` and `description`
+- [ ] Frontmatter `name` uses the public skill identifier format (e.g., `vc:design-system`)
 - [ ] Description uses third person and includes trigger phrases
 - [ ] Body uses imperative form (not second person)
 
@@ -164,14 +185,25 @@ Run the validation checklist before finishing:
 - [ ] Utilities in scripts/
 - [ ] SKILL.md references all bundled resources
 
-**Final confirmation:** "Skill `vc-xxx` đã hoàn thành. Tất cả checklist passed. Done?"
+**Final confirmation:** "Skill tại `[confirmed skill path]` đã hoàn thành. Tất cả checklist passed. Done?"
 
 #### Frontmatter (Required)
 
 ```yaml
 ---
-name: skill-name
+name: vc:skill-name
 description: This skill should be used when the user asks to "specific phrase 1", "specific phrase 2", "specific phrase 3". Be concrete and specific about trigger phrases.
+version: 0.1.0
+---
+```
+
+For a role-scoped skill, keep the folder path scoped but keep the frontmatter name as the public skill identifier:
+
+```yaml
+# .claude/skills/role-sa/vc-design-system/SKILL.md
+---
+name: vc:design-system
+description: This skill should be used when the user asks to "generate a design-system diagram", "create visual explanation", or needs role-sa design-system outputs.
 version: 0.1.0
 ---
 ```

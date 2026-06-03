@@ -1,17 +1,46 @@
 # Skill Development Reference
 
-## Skill Naming Conventions
+## Skill Naming and Path Conventions
 
-- Use `vc-` prefix for project skills (e.g., `vc-debug`, `vc-security`)
-- Use kebab-case (e.g., `create-skill`, not `createSkill` or `create_skill`)
+- Use `vc-` prefix for skill folder names (e.g., `vc-debug`, `vc-security`, `vc-design-system`)
+- Use kebab-case for folder names (e.g., `vc-create-skill`, not `vcCreateSkill` or `vc_create_skill`)
+- Use `vc:*` format for public frontmatter names when following existing repo convention (e.g., folder `vc-design-system` → `name: vc:design-system`)
 - Names should be descriptive but concise (2-3 words max)
+
+### Root-Level Skill Path
+
+Use this for general-purpose skills:
+
+```
+.claude/skills/vc-frontend/
+└── SKILL.md
+```
+
+### Role-Scoped Skill Path
+
+Use this when the user supplies a role/scope such as `role-sa`:
+
+```
+.claude/skills/role-sa/vc-design-system/
+└── SKILL.md
+```
+
+The folder path carries the role/scope. The frontmatter name remains the public skill identifier:
+
+```yaml
+---
+name: vc:design-system
+description: This skill should be used when the user asks to "generate a design-system diagram", "create visual explanation", or needs role-sa design-system outputs.
+version: 0.1.0
+---
+```
 
 ## Frontmatter Patterns
 
 ### Standard Frontmatter
 ```yaml
 ---
-name: skill-name
+name: vc:skill-name
 description: This skill should be used when the user asks to "phrase 1", "phrase 2", "phrase 3". Be concrete and specific.
 version: 0.1.0
 ---
@@ -20,7 +49,7 @@ version: 0.1.0
 ### Agent Skill Frontmatter (for agent-defining skills)
 ```yaml
 ---
-name: vc-my-agent
+name: vc:my-agent
 description: This agent should be used for [specific domain]. Triggers when user says "do [something]", "help with [task]".
 version: 0.1.0
 agent_type: vc-execute-agent  # or other agent type
@@ -49,13 +78,13 @@ description: Provides guidance for working with hooks.  # Weak, generic
 
 ### Minimal Skill
 ```
-skill-name/
+vc-skill-name/
 └── SKILL.md
 ```
 
 ### Standard Skill (Recommended)
 ```
-skill-name/
+vc-skill-name/
 ├── SKILL.md
 ├── references/
 │   └── detailed-topic.md
@@ -63,9 +92,20 @@ skill-name/
     └── working-example.sh
 ```
 
+### Role-Scoped Skill
+```
+role-sa/
+└── vc-design-system/
+    ├── SKILL.md
+    ├── references/
+    │   └── visual-patterns.md
+    └── examples/
+        └── diagram.html
+```
+
 ### Complex Skill
 ```
-skill-name/
+vc-skill-name/
 ├── SKILL.md
 ├── references/
 │   ├── patterns.md

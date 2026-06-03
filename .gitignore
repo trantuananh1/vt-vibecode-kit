@@ -8,3 +8,4 @@ node_modules/
 .codex/statusline.cjs
 .claude/skills/vc-preview/
 .claude/skills/vc-design-system/
+.idea

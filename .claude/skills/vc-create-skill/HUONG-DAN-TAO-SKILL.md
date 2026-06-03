@@ -7,11 +7,13 @@
 Đặt câu hỏi với agent:
 
 ```
-"create a skill for frontend, rules: no XSS, type safety"
+"create a skill for design-system, role: role-sa, rules: consistent visual output, no inaccessible colors"
 
 "build a skill for API, rules: always validate input"
 
 "add a skill for database, rules: no N+1 queries"
+
+"create a skill design-system for role-sa, rules: consistent visual output"
 ```
 
 Agent sẽ đi qua từng step và hỏi xác nhận.
@@ -19,13 +21,14 @@ Agent sẽ đi qua từng step và hỏi xác nhận.
 ### Luồng Chi Tiết (Agent Hỏi Qua Từng Step)
 
 ```
-BẠN: "create a skill for X, rules: [Z]"
+BẠN: "create a skill for X, role: [R], rules: [Z]"
            ↓
 ┌─────────────────────────────────────────┐
 │ STEP 1: CAPTURE INTENT                  │
 │                                          │
 │ AGENT hỏi:                               │
 │ "Skill này làm gì?"                      │
+│ "Role/scope là gì?"                      │
 │ "Trigger phrases là gì?"                 │
 │ "Rules: [Z]. Confirm?"                   │
 │                                          │
@@ -47,7 +50,8 @@ BẠN: "create a skill for X, rules: [Z]"
 │ STEP 3: CREATE STRUCTURE                │
 │                                          │
 │ AGENT hỏi:                               │
-│ "Directory: .claude/skills/vc-xxx/"      │
+│ "Directory: .claude/skills/[role]/vc-xxx/"│
+│ "Nếu không có role: .claude/skills/vc-xxx/"│
 │ "Confirm?"                               │
 │                                          │
 │ BẠN confirm → AGENT tạo structure        │
@@ -96,9 +100,10 @@ BẠN: "create a skill for X, rules: [Z]"
 | Câu hỏi | Mục đích |
 |---------|----------|
 | "Skill này làm gì?" | Core functionality |
+| "Role/scope là gì?" | Quyết định skill tạo ở root hay nested path, ví dụ `role-sa` |
 | "Trigger phrases là gì?" | Khi nào activate |
 | "Rules cần tuân theo?" | **QUAN TRỌNG** - capture rules từ user |
-| "Có skill tương tự chưa?" | Tránh duplicate |
+| "Có skill tương tự trong role/scope này chưa?" | Tránh duplicate |
 
 #### Step 2: Analyze Resources
 | Câu hỏi | Mục đích |
@@ -110,7 +115,7 @@ BẠN: "create a skill for X, rules: [Z]"
 #### Step 3: Create Structure
 | Câu hỏi | Mục đích |
 |---------|----------|
-| "Directory structure: [X]. Confirm?" | Tránh sai |
+| "Directory structure: [X]. Confirm?" | Tránh sai path, đặc biệt khi có role/scope |
 
 #### Step 4a: Trigger Phrases
 | Câu hỏi | Mục đích |
@@ -141,16 +146,17 @@ BẠN: "create a skill for X, rules: [Z]"
 
 **Bạn nói:**
 ```
-create a skill for frontend, rules: no XSS, type safety
+create a skill for design-system, role: role-sa, rules: consistent visual output, no inaccessible colors
 ```
 
 **Agent đi qua từng step:**
 
 ```
 STEP 1:
-"Skill frontend làm gì? (UI components, styling, layout?)"
-"Trigger phrases? ('build UI', 'create component', 'style page')"
-"Rules: no XSS, type safety. Confirm?"
+"Skill design-system làm gì? (visual explanations, diagrams, HTML recaps?)"
+"Role/scope: role-sa. Confirm?"
+"Trigger phrases? ('generate diagram', 'create visual explanation', 'design-system recap')"
+"Rules: consistent visual output, no inaccessible colors. Confirm?"
 
 BẠN: "Confirm"
 
@@ -161,26 +167,26 @@ STEP 2:
 BẠN: "Thêm design tokens docs"
 
 STEP 3:
-"Directory: .claude/skills/vc-frontend/"
-"Symlink đã tạo"
+"Directory: .claude/skills/role-sa/vc-design-system/"
+"Không cần per-skill symlink vì .agents/skills đã trỏ tới .claude/skills"
 
 STEP 4a:
-"Trigger phrases: 'build UI', 'create component', 'style page'. Good?"
+"Trigger phrases: 'generate diagram', 'create visual explanation', 'design-system recap'. Good?"
 
 STEP 4b:
 "Rules section sẽ include:
-- No XSS: Always sanitize user input
-- Type Safety: Never use as any"
+- Consistent Visual Output: Reuse design tokens and layout rules
+- No Inaccessible Colors: Maintain contrast and readable text"
 "Confirm?"
 
 STEP 4c:
 "SKILL.md body đã viết"
 
 STEP 4d:
-"Chi tiết nào nên sang references/? (design tokens, component patterns)"
+"Chi tiết nào nên sang references/? (design tokens, visual patterns, HTML/CSS patterns)"
 
 STEP 5:
-"Tạo references/design-tokens.md, examples/button.tsx"
+"Tạo references/design-tokens.md, references/html-css-patterns.md, examples/diagram.html"
 
 STEP 6:
 "Checklist passed. Done?"
@@ -188,26 +194,36 @@ STEP 6:
 
 **Output:**
 ```
-.claude/skills/vc-frontend/
+.claude/skills/role-sa/vc-design-system/
 ├── SKILL.md
-│   ├── Trigger: "build UI", "create component"...
-│   ├── Rules: no XSS, type safety
+│   ├── name: vc:design-system
+│   ├── Trigger: "generate diagram", "create visual explanation"...
+│   ├── Role/scope: role-sa
+│   ├── Rules: consistent visual output, no inaccessible colors
 │   └── Workflow
 ├── references/
-│   └── design-tokens.md
+│   ├── design-tokens.md
+│   └── html-css-patterns.md
 └── examples/
-    └── button.tsx
+    └── diagram.html
 ```
 
 ### Cách 2: Dùng Skill Trực Tiếp
 
 ```
-Use vc-create-skill to create a skill for [your use case] with rules [your rules]
+Use vc-create-skill to create a skill for [your use case] with role [optional role/scope] and rules [your rules]
 ```
 
 ### Quan Trọng: Rules Cần Được Embed Vào Skill
 
-Rules từ user sẽ được **embed vào SKILL.md**:
+Role/scope từ user sẽ quyết định **đường dẫn tạo skill**, còn rules từ user sẽ được **embed vào SKILL.md**:
+
+```text
+role: none    → .claude/skills/vc-frontend/
+role: role-sa → .claude/skills/role-sa/vc-design-system/
+```
+
+Rules section example:
 
 ```markdown
 ## Rules

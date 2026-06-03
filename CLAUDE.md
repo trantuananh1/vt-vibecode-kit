@@ -395,6 +395,7 @@ Before routing, scan `.claude/skills/` directory names and match keywords from t
 | `vc-sequential-thinking` | Step-by-step reasoning | complex problem, think through, analyze step by step |
 | `vc-problem-solving` | Cognitive unblocking techniques | stuck, can't figure out, complex, spiral |
 | `vc-context-engineering` | Token/context optimization | context limit, token usage, optimize context |
+| `vc-create-skill` | Create new skills for the harness | create a skill, write a new skill, build a skill, add a skill, make a skill, design a skill, develop a skill |
 | `vc-preview` | Visual diagrams, slides, file viewer | diagram, visualize, slides, preview |
 | `vc-mcp-management` | MCP server tools | MCP, model context protocol |
 | `vc-chrome-devtools` | Puppeteer browser automation | browser, screenshot, scrape, automate browser |
@@ -406,6 +407,12 @@ Before routing, scan `.claude/skills/` directory names and match keywords from t
 | `vc-audit-vc` | Agent harness health audit (agents, skills, README.md, protocol wiring) | harness, agent parity, skill audit, guide sync |
 
 **Rule:** When 1+ skills match the request, mention them to the user OR include them in the subagent prompt context. Never silently skip relevant skills.
+
+**Skill creation routing is special:** When the user asks to create, write, build, add, make,
+design, or develop a skill in this repo, always use the project-local `vc-create-skill` workflow
+instead of any global `create-skill` skill. `vc-create-skill` owns the mandatory role/scope gate
+and must ask for `role-dev`, `role-sa`, or `root` before creating skill files unless the user
+already provided that role/scope explicitly.
 
 ---
 
